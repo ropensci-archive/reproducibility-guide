@@ -17,7 +17,7 @@ This could be a image gallery organized by tools or purpose of workflow.  It wou
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="{{ site.baseurl }}img/workflow1.png" alt="workflowDiagram">
+      <img src="{{ site.baseurl }}/img/workflow1.png" alt="workflowDiagram">
       <div class="caption">
         <h3>Example</h3>
         <p>Tools: R, Pandoc, Markdown.  This is just an example.  It would be great if we could develop a way make workflows easy, so in the future more people could submit their workflows. </p>
