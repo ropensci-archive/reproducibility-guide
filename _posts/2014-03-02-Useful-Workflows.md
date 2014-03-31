@@ -7,10 +7,27 @@ categories:
 
 ###Useful Work flows for writing and reproducibility 
 
-This could be a image gallery organized by tools or purpose of workflow.  It would be really cool to collect from people as through out the hackathon.  Maybe someone who is awesome at design could help with this.  If not, I can make them in illustrator pretty easy. 
+I think I am going to merge Project folder structure, workflows and introduction to tools all in this page.
+
+Here is what I came up with for diagrams.  The actual diagrams will have a better layout, that will go with the text I wrote, but I wanted them to make them extra big so you can see them clearly
+
+###Key
+<img src="{{ site.baseurl }}/img/key.png" class="img-responsive" alt="...">
+<hr>
+Manuscript using Latex workflow via @EDiLD 
+<img src="{{ site.baseurl }}/img/workflow1b.png" class="img-responsive" alt="...">
+<hr>
+Manuscript Workflow via Kieran Healy 
+<img src="{{ site.baseurl }}/img/workflow2.png" class="img-responsive" alt="...">
+<hr>
+Website
+<img src="{{ site.baseurl }}/img/workflow3.png" class="img-responsive" alt="...">
+<hr>
+
+
+###More examples?
 
 - Sweave Example
-- Latex Examples 
 - [Markdown Authoring Guide](https://github.com/scholmd/scholmd/wiki/Tools-to-support-your-markdown-authoring)
 - Project Folder Structure Examples
 
@@ -26,3 +43,5 @@ This could be a image gallery organized by tools or purpose of workflow.  It wou
     </div>
   </div>
 </div>
+
+
