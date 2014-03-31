@@ -14,9 +14,11 @@ title: Reproducibility Guide Home
     <div class = "row">
 	  <ul class="posts">
 	    {% for post in site.posts %}
-
+<<<<<<< HEAD
+	      <H3><a href="{{ base.url }}{{ post.url }}">{{ post.title }}</a></H3>
+=======
 	      <H3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></H3>
-
+>>>>>>> 4c4e4f9b5070b166a38ff50a1333f8a3eee85aa2
 	    {% endfor %}
 	  </ul>
 	</div>
