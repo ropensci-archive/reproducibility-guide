@@ -1,0 +1,17 @@
+/*This is additional CSS styling added*/
+
+center {
+  text-align:center
+}
+
+left {
+  text-align:left
+}
+
+right {
+  text-align:right
+}
+
+.titleText {
+  font-size: 200%
+}
