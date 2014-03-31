@@ -1,4 +1,4 @@
 name: Reproduciblity Guide
 markdown: redcarpet
 pygments: true
-baseurl: /test
+baseurl: /reproducibility-guide
