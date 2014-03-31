@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  1. Introduction to Tools
+title:  Introduction to Tools
 date:   2014-03-30 
 categories: 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  2. Useful Workflows
+title:  Useful Workflows
 date:   2014-03-30 
 categories: 
 ---

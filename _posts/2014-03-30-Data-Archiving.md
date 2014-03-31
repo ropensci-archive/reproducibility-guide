@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  4. Data Archiving
+title:  Data Archiving
 date:   2014-03-30 
 categories: 
 ---
