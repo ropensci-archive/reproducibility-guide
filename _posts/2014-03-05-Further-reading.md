@@ -9,6 +9,8 @@ categories:
 
 [Barnes, N. Publish your computer code: it is good enough. Nature. 467, (2010), 753.](http://www.nature.com/news/2010/101013/full/467753a.html) [pdf](http://www.nature.com/news/2010/101013/pdf/467753a.pdf)
 
+Baumer, B. et al. R Markdown: Integrating a Reproducible Analysis Tool in Introductory Statistics. (2014) Technology Innovations in Statistics Education.  8(1). 1-29. [pdf](http://escholarship.org/uc/item/90b2f5xh.pdf)
+
 [Birney, E. et al. Prepublication data sharing. Nature. 461, (2009), 168-170.](http://www.nature.com/nature/journal/v461/n7261/full/461168a.html) [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461168a.pdf)
 
 Buckheit, J.B. and Donoho, D.L. Wavelab and reproducible research. (1995). [pdf](http://www-stat.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
