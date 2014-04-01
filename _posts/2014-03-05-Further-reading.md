@@ -17,7 +17,7 @@ Drummond, C. Reproducible Research: a Dissenting Opinion. (2012), 1-10. [pdf](ht
 
 Freire, J. et al. Computational reproducibility: state-of-the-art, challenges, and database research opportunities. SIGMOD2012 (2012), 593-596. [pdf](http://bigdata.poly.edu/~juliana/pub/freire-sigmod2012.pdf)
 
-Gandrud C 2013 Reproducible Research with R and RStudio. CRC Press Florida.
+Gandrud C 2013 Reproducible Research with R and RStudio. CRC Press Florida. [link](http://christophergandrud.github.io/RepResR-RStudio/)
 
 Gentleman, R. and Temple Lang, D. (2007). Statistical analyses and reproducible research. Journal of Computational and Graphical Statistics 16, 1–23. [pdf](http://www.extemporaneousb.com/R.berkeley/resources/StatisticalAnalysesAndReproducibility.pdf)
 
@@ -25,7 +25,7 @@ Hothorn T and Leisch F 2011. Case studies in reproducibility. Briefings in Bioin
 
 Ioannidis, J.P. a et al. Repeatability of published microarray gene expression analyses. Nature genetics. 41, (2009), 149-55. [pdf](http://www.csc.mrc.ac.uk/d/Petretto/people_htm_files/4.pdf)
 
-King, G. Replication, Replication. PS: Political Science and Politics. (1995).
+King, G. Replication, Replication. PS: Political Science and Politics. (1995).[pdf](http://gking.harvard.edu/files/gking/files/replication.pdf)
 
 Leisch F, Eugster M and Hothorn T 2011. Executable Papers for the R Community: The R2 Platform for Reproducible Research. Procedia Computer Science 4(0), 618-626. [pdf](http://www.sciencedirect.com/science/article/pii/S1877050911001232/pdf?md5=fbaaaf6f08354bd22db760c9bd113ee2&pid=1-s2.0-S1877050911001232-main.pdf)
 
@@ -35,7 +35,7 @@ LeVeque, R.J. Wave propagation software, computational science, and reproducible
 
 LeVeque, R, Stodden, V., & Mitchell, I. (2012). Reproducible Research for Scientific Computing: Tools and Strategies for Changing the Culture. Computing in Science and Engineering, 14(4), 13–17 [pdf](http://www.stanford.edu/~vcs/papers/CiSE2012-LMS.pdf)
 
-McCullough, B.D. Got Replicability? The Journal of Money, Credit and Banking Archive. Econ Journal Watch. 4, (2007),326-337
+McCullough, B.D. Got Replicability? The Journal of Money, Credit and Banking Archive. Econ Journal Watch. 4, (2007),326-337 [pdf](http://econjwatch.org/file_download/170/2007-09-mccullough-econ_practice.pdf)
 
 McCullough, B.D. Do economics journal archives promote replicable research?. Economics Journal Archives. (2008). [pdf](http://www.pages.drexel.edu/~bdm25/cje.pdf)
 
@@ -53,11 +53,11 @@ Price, K. Anything You Can Do, I Can Do Better (No You Can't)... Computer Vision
 
 [Piwowar, H. a et al. Sharing detailed research data is associated with increased citation rate. PloS one. 2, (2007), 308.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0000308#pone-0000308-g002)
 
-Quirk, J. Computational Science \Same Old Silence, Same Old Mistakes" \Something More Is Needed..." Adaptive Mesh Reenement-Theory and Applications. (2005), 4-28.
+Quirk, J. Computational Science "Same Old Silence, Same Old Mistakes" "Something More Is Needed..." Adaptive Mesh Reenement-Theory and Applications. (2005), 4-28. [link](http://link.springer.com/chapter/10.1007/3-540-27039-6_1)
 
-Rossini, Anthony and Leisch, Friedrich, "Literate Statistical Practice" (March 2003). UW Biostatistics Working Paper Series. Working Paper 194. http://biostats.bepress.com/uwbiostat/paper194
+Rossini, Anthony and Leisch, Friedrich, "Literate Statistical Practice" (March 2003). UW Biostatistics Working Paper Series. Working Paper 194. [link](http://biostats.bepress.com/uwbiostat/paper194)
 
-Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
+Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285 [link](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)
 
 [Savage, C.J. and Vickers, A.J. Empirical study of data sharing by authors publishing in PLoS journals. PloS one. 4, (2009),7078.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0007078#pone-0007078-g001)
 
@@ -67,15 +67,15 @@ Stodden, V. The Legal Framework for Reproducible Scientific Research: Licensing 
 
 Stodden, “Trust Your Science? Open Your Data and Code,” Amstat News, 1 July 2011; http://magazine.amstat.org/blog/2011/07/01/trust-your-science/
 
-Stodden V, Guo P, Ma Z (2013) Toward Reproducible Computational Research: An Empirical Analysis of Data and Code Policy Adoption by Journals. PLoS ONE 8(6): e67111. doi:10.1371/journal.pone.0067111
+Stodden V, Guo P, Ma Z (2013) Toward Reproducible Computational Research: An Empirical Analysis of Data and Code Policy Adoption by Journals. PLoS ONE 8(6): e67111. doi:10.1371/journal.pone.0067111 [link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067111)
 
-Stodden V  2010 The Scientific Method in Practice: Reproducibility in the Computational Sciences. MIT Sloan School Working Paper 4773-10. http://ssrn.com/abstract=1550193
+Stodden V  2010 The Scientific Method in Practice: Reproducibility in the Computational Sciences. MIT Sloan School Working Paper 4773-10. [link](http://ssrn.com/abstract=1550193)
 
 Vandewalle, P. et al. Reproducible research in signal processing - What, why, and how. IEEE Signal Processing Magazine.26, (2009), 37-47. [pdf](http://rr.epfl.ch/17/1/VandewalleKV09.pdf)
 
 [Wilson, G. et al. Best Practices for Scientific Computing. 1-6.](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745)
 
-Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida
+Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida [link](http://www.crcpress.com/product/isbn/9781482203530) [Repo](https://github.com/yihui/knitr-book/)
 
 
 
