@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Best Practices for Project Meta Data
+title:  Best Practices for Project Metadata
 date:   2014-03-30 14:12:14
 categories: 
 ---
