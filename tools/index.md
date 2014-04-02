@@ -15,7 +15,7 @@ The current ecosystem of tools for developing reproducible research documents wi
 
 ## Typsetting/Formatting Languages
 
-- [LaTeX](http://www.latex-project.org/):
+- [LaTeX](http://www.latex-project.org/): A typesetting language.
 - [Markdown](http://daringfireball.net/projects/markdown/):
 - [R Markdown](http://rmarkdown.rstudio.com/):
 
