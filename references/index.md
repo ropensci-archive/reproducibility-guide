@@ -7,9 +7,9 @@ categories:
 
 ## Scholarly literature on reproducible research
 
-[Barnes, N. Publish your computer code: it is good enough. Nature. 467, (2010), 753.](http://www.nature.com/news/2010/101013/full/467753a.html) [pdf](http://www.nature.com/news/2010/101013/pdf/467753a.pdf)
+Barnes, N. Publish your computer code: it is good enough. Nature. 467, (2010), 753.](http://www.nature.com/news/2010/101013/full/467753a.html) [pdf](http://www.nature.com/news/2010/101013/pdf/467753a.pdf)
 
-[Birney, E. et al. Prepublication data sharing. Nature. 461, (2009), 168-170.](http://www.nature.com/nature/journal/v461/n7261/full/461168a.html) [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461168a.pdf)
+Birney, E. et al. Prepublication data sharing. Nature. 461, (2009), 168-170.](http://www.nature.com/nature/journal/v461/n7261/full/461168a.html) [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461168a.pdf)
 
 Buckheit, J.B. and Donoho, D.L. Wavelab and reproducible research. (1995). [pdf](http://www-stat.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
 
@@ -82,73 +82,73 @@ Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida
 
 ## Blogs posts and websites on reproducible research
 
-http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/
+[http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/](http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/)
 
-http://kbroman.github.io/Tools4RR/
+[http://kbroman.github.io/Tools4RR/](http://kbroman.github.io/Tools4RR/)
 
-http://rpubs.com/bbolker/3153
+[http://rpubs.com/bbolker/3153](http://rpubs.com/bbolker/3153)
 
-http://sepwww.stanford.edu/data/media/public/sep//jon/repropreface.html
+[http://sepwww.stanford.edu/data/media/public/sep//jon/repropreface.html](http://sepwww.stanford.edu/data/media/public/sep//jon/repropreface.html)
 
-http://blog.revolutionanalytics.com/2010/10/a-workflow-for-r.html
+[http://blog.revolutionanalytics.com/2010/10/a-workflow-for-r.html](http://blog.revolutionanalytics.com/2010/10/a-workflow-for-r.html)
 
-http://www.stanford.edu/~vcs/AAAS2011/
+[http://www.stanford.edu/~vcs/AAAS2011/](http://www.stanford.edu/~vcs/AAAS2011/)
 
-http://wiki.stodden.net/Best_Practices_for_Researchers_Publishing_Computational_Results
+[http://wiki.stodden.net/Best_Practices_for_Researchers_Publishing_Computational_Results](http://wiki.stodden.net/Best_Practices_for_Researchers_Publishing_Computational_Results)
 
-http://www.reproducibleresearch.net/index.php/RR_links
+[http://www.reproducibleresearch.net/index.php/RR_links](http://www.reproducibleresearch.net/index.php/RR_links)
 
-http://www.nature.com/nature/focus/reproducibility/
+[http://www.nature.com/nature/focus/reproducibility/](http://www.nature.com/nature/focus/reproducibility/)
 
-http://fperez.org/py4science/git.html
+[http://fperez.org/py4science/git.html](http://fperez.org/py4science/git.html)
 
-http://ivory.idyll.org/blog/replication-i.html
+[http://ivory.idyll.org/blog/replication-i.html](http://ivory.idyll.org/blog/replication-i.html)
 
-http://www.mendeley.com/groups/1142301/reproducible-research/
+[http://www.mendeley.com/groups/1142301/reproducible-research/](http://www.mendeley.com/groups/1142301/reproducible-research/)
 
-http://biostat.mc.vanderbilt.edu/wiki/Main/StatReport
+[http://biostat.mc.vanderbilt.edu/wiki/Main/StatReport](http://biostat.mc.vanderbilt.edu/wiki/Main/StatReport)
 
-http://reproducibleresearch.net/index.php/How_to
+[http://reproducibleresearch.net/index.php/How_to](http://reproducibleresearch.net/index.php/How_to)
 
-http://www.executablepapers.com/index.html
+[http://www.executablepapers.com/index.html](http://www.executablepapers.com/index.html)
 
-http://tomwallis.info/category/reproducible-research/
+[http://tomwallis.info/category/reproducible-research/](http://tomwallis.info/category/reproducible-research/)
 
-http://simplystatistics.org/2013/08/21/treading-a-new-path-for-reproducible-research-part-1/
+[http://simplystatistics.org/2013/08/21/treading-a-new-path-for-reproducible-research-part-1/](http://simplystatistics.org/2013/08/21/treading-a-new-path-for-reproducible-research-part-1/)
 
-http://scienceinthesands.blogspot.co.uk/search/label/reproduciblie%20research
+[http://scienceinthesands.blogspot.co.uk/search/label/reproduciblie%20research](http://scienceinthesands.blogspot.co.uk/search/label/reproduciblie%20research)
 
-http://scienceinthesands.blogspot.co.uk/2012/08/7-habits-of-open-scientist-2.html
+[http://scienceinthesands.blogspot.co.uk/2012/08/7-habits-of-open-scientist-2.html](http://scienceinthesands.blogspot.co.uk/2012/08/7-habits-of-open-scientist-2.html)
 
-http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19
+[http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19](http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19)
 
-http://www.reproducibility.org/RSF/book/rsf/scons/paper_html/node2.html
+[http://www.reproducibility.org/RSF/book/rsf/scons/paper_html/node2.html](http://www.reproducibility.org/RSF/book/rsf/scons/paper_html/node2.html)
 
-http://ajrichards.bitbucket.org/lpEdit/ReproducibleResearch.html
+[http://ajrichards.bitbucket.org/lpEdit/ReproducibleResearch.html](http://ajrichards.bitbucket.org/lpEdit/ReproducibleResearch.html)
 
-http://kieranhealy.org/blog/archives/2014/01/23/plain-text/
+[http://kieranhealy.org/blog/archives/2014/01/23/plain-text/](http://kieranhealy.org/blog/archives/2014/01/23/plain-text/)
 
-http://nicercode.github.io/git/
+[http://nicercode.github.io/git/](http://nicercode.github.io/git/)
 
-http://nicercode.github.io/blog/2013-04-05-projects/
+[http://nicercode.github.io/blog/2013-04-05-projects/](http://nicercode.github.io/blog/2013-04-05-projects/)
 
-http://ivory.idyll.org/blog/tag/reproducibility.html
+[http://ivory.idyll.org/blog/tag/reproducibility.html](http://ivory.idyll.org/blog/tag/reproducibility.html)
 
-http://yihui.name/en/tags/ReproducibleResearch
+[http://yihui.name/en/tags/ReproducibleResearch](http://yihui.name/en/tags/ReproducibleResearch)
 
-http://www.rstudio.com/ide/download/preview
+[http://www.rstudio.com/ide/download/preview](http://www.rstudio.com/ide/download/preview)
 
-https://github.com/rstudio/rmarkdown
+[https://github.com/rstudio/rmarkdown](https://github.com/rstudio/rmarkdown)
 
 
 # Web applications, services & organisations 
 
-http://recomputation.org/
+[http://recomputation.org/](http://recomputation.org/)
 
-http://sciencecodemanifesto.org/
+[http://sciencecodemanifesto.org/](http://sciencecodemanifesto.org/)
 
-http://researchcompendia.org/
+[http://researchcompendia.org/](http://researchcompendia.org/)
 
-https://collage.elsevier.com/
+[https://collage.elsevier.com/](https://collage.elsevier.com/)
 
-http://www.runmycode.org/home/?/CompanionSite/
+[http://www.runmycode.org/home/?/CompanionSite/](http://www.runmycode.org/home/?/CompanionSite/)
