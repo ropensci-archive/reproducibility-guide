@@ -15,9 +15,9 @@ The current ecosystem of tools for developing reproducible research documents wi
 
 ## Typsetting/Formatting Languages
 
-- [LaTeX](http://www.latex-project.org/): A typesetting language.
-- [Markdown](http://daringfireball.net/projects/markdown/):
-- [R Markdown](http://rmarkdown.rstudio.com/):
+- [LaTeX](http://www.latex-project.org/): A free typesetting language that has long been used in scientific publishing.  It forms the basis of many of reproducible workflows.  Various distributions exist for different operating systems.  
+- [Markdown](http://daringfireball.net/projects/markdown/): A simple text-based markup for creating easy to read documents to be converted to HTML.  Increasingly common markup used for creating documents, blogs, presentations, etc.
+- [R Markdown](http://rmarkdown.rstudio.com/): An enhanced flavor of Markdown that recognizes R code chunks, which allows the embedding of R directly into a Markdown document to create dynamic and reproducible documents.
 
 ## R Packages
 
