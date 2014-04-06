@@ -12,16 +12,16 @@ I think I am going to merge Project folder structure, workflows and introduction
 Here is what I came up with for diagrams.  The actual diagrams will have a better layout, that will go with the text I wrote, but I wanted them to make them extra big so you can see them clearly
 
 ###Key
-<img src="{{ site.baseurl }}/img/key.png" class="img-responsive" alt="...">
+<img src="/assets/img/key.png" class="img-responsive" alt="...">
 <hr>
 Manuscript using Latex workflow via @EDiLD 
-<img src="{{ site.baseurl }}/img/workflow1b.png" class="img-responsive" alt="...">
+<img src="/assets/img/workflow1b.png" class="img-responsive" alt="...">
 <hr>
 Manuscript Workflow via Kieran Healy 
-<img src="{{ site.baseurl }}/img/workflow2.png" class="img-responsive" alt="...">
+<img src="/assets/img/workflow2.png" class="img-responsive" alt="...">
 <hr>
 Website
-<img src="{{ site.baseurl }}/img/workflow3.png" class="img-responsive" alt="...">
+<img src="/assets/img/workflow3.png" class="img-responsive" alt="...">
 <hr>
 
 
@@ -34,7 +34,7 @@ Website
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="{{ site.baseurl }}/img/workflow1.png" alt="workflowDiagram">
+      <img src="assets/img/workflow1.png" alt="workflowDiagram">
       <div class="caption">
         <h3>Example</h3>
         <p>Tools: R, Pandoc, Markdown.  This is just an example.  It would be great if we could develop a way make workflows easy, so in the future more people could submit their workflows. </p>
