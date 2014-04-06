@@ -5,14 +5,6 @@ date:   2014-03-30 14:12:14
 categories: 
 ---
 
-###Ideas for structure:
-
-**Minimum**: sys.info(), sessionInfo(), language versions, dependencies, dependency versions, license, author, git commit id,
-
-**If Tool**: example dataset (w/expected output), run times under commonly used platforms.  
-
-**Larger Programs** tests, how to run tests and test location. 
-
 ###Questions 
 **Great rundown of what the descriptors should address via @manics and @cboettig.**
 
@@ -31,3 +23,12 @@ categories:
 - Use cases
 - Situations that it's not designed for
 - An explanation on how to install program
+
+###Ideas for structure:
+
+**Minimum**: sys.info(), sessionInfo(), language versions, dependencies, dependency versions, license, author, git commit id,
+
+**If Tool**: example dataset (w/expected output), run times under commonly used platforms.  
+
+**Larger Programs** tests, how to run tests and test location. 
+
