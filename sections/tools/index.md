@@ -24,7 +24,7 @@ The current ecosystem of tools for developing reproducible research documents wi
 - [rmarkdown](https://github.com/rstudio/rmarkdown): This package interprets the markdown syntax to format the text (for example with styled headings of different levels, bold and italic text) and recognises the chunks of R code as computable content. <!-- BM: this is rather awkward-sounding, improvements welcome! -->
 - [slidify](http://slidify.org): This package turns rmarkdown documents into slides that can be presented in a browser. Several popular slide frameworks are built-in and can be further customised with CSS.
 
- <!-- BM: rmarkdown defn is rather awkward-sounding, improvements welcome! -->
+<!-- BM: rmarkdown defn is rather awkward-sounding, improvements welcome! -->
 <!-- NOTE: Struggled with what to call this category -->
 <!-- BM: split it up since pandoc isn't really in the same category as the blogging platforms-->
 ## Document Conversion 
