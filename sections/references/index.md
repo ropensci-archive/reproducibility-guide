@@ -65,7 +65,7 @@ Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproduci
 
 Schofield, P.N. et al. Post-publication sharing of data and tools. Nature. 461, (2009), 171-173. [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461171a.pdf)
 
-Stodden, V. The Legal Framework for Reproducible Scientific Research: Licensing and Copyright. Computing in Science &Engineering. 11, (2009), 35-40. [pdf](http://academiccommons.columbia.edu/download/fedora_content/download/ac:140154/CONTENT/04720221.pdf)
+Stodden, V. The Legal Framework for Reproducible Scientific Research: Licensing and Copyright. Computing in Science &Engineering. 11, (2009), 35-40. [pdf](http://academiccommons.columbia.edu/download/fedora_content/download/ac:140154/CONTENT/04720221.pdf) [web](http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19)
 
 Stodden, “Trust Your Science? Open Your Data and Code,” Amstat News, 1 July 2011; http://magazine.amstat.org/blog/2011/07/01/trust-your-science/
 
@@ -79,52 +79,17 @@ Vandewalle, P. et al. Reproducible research in signal processing - What, why, an
 
 Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida [link](http://www.crcpress.com/product/isbn/9781482203530) [Repo](https://github.com/yihui/knitr-book/)
 
-
-
-
-## Blogs posts and websites on reproducible research
-
-http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/
-
-http://kbroman.github.io/Tools4RR/
-
-http://rpubs.com/bbolker/3153
-
-http://sepwww.stanford.edu/data/media/public/sep//jon/repropreface.html
-
-http://blog.revolutionanalytics.com/2010/10/a-workflow-for-r.html
-
-http://www.stanford.edu/~vcs/AAAS2011/
-
-http://wiki.stodden.net/Best_Practices_for_Researchers_Publishing_Computational_Results
-
-http://www.reproducibleresearch.net/index.php/RR_links
-
 http://www.nature.com/nature/focus/reproducibility/
 
-http://fperez.org/py4science/git.html
+http://www.mendeley.com/groups/1142301/reproducible-research/papers/
 
-http://ivory.idyll.org/blog/replication-i.html
+## Blog posts on doing reproducible research (add yours!)
 
-http://www.mendeley.com/groups/1142301/reproducible-research/
+http://byt.ghost.io/2014/04/12/on-reproducibility/
 
-http://biostat.mc.vanderbilt.edu/wiki/Main/StatReport
+http://yihui.name/en/tags/ReproducibleResearch
 
-http://reproducibleresearch.net/index.php/How_to
-
-http://www.executablepapers.com/index.html
-
-http://tomwallis.info/category/reproducible-research/
-
-http://simplystatistics.org/2013/08/21/treading-a-new-path-for-reproducible-research-part-1/
-
-http://scienceinthesands.blogspot.co.uk/search/label/reproduciblie%20research
-
-http://scienceinthesands.blogspot.co.uk/2012/08/7-habits-of-open-scientist-2.html
-
-http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19
-
-http://www.reproducibility.org/RSF/book/rsf/scons/paper_html/node2.html
+http://ivory.idyll.org/blog/tag/reproducibility.html
 
 http://ajrichards.bitbucket.org/lpEdit/ReproducibleResearch.html
 
@@ -134,16 +99,45 @@ http://nicercode.github.io/git/
 
 http://nicercode.github.io/blog/2013-04-05-projects/
 
-http://ivory.idyll.org/blog/tag/reproducibility.html
+http://tomwallis.info/category/reproducible-research/
 
-http://yihui.name/en/tags/ReproducibleResearch
+http://simplystatistics.org/2013/08/21/treading-a-new-path-for-reproducible-research-part-1/
 
-http://www.rstudio.com/ide/download/preview
+http://scienceinthesands.blogspot.co.uk/search/label/reproduciblie%20research
 
-https://github.com/rstudio/rmarkdown
+http://scienceinthesands.blogspot.co.uk/2012/08/7-habits-of-open-scientist-2.html
 
+http://fperez.org/py4science/git.html
 
-# Web applications, services & organisations 
+http://ivory.idyll.org/blog/replication-i.html
+
+http://blog.revolutionanalytics.com/2010/10/a-workflow-for-r.html
+
+http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/
+
+## Websites with resources to enable reproducible research (ie. a list of lists)
+
+http://kbroman.github.io/Tools4RR/
+
+http://rpubs.com/bbolker/3153
+
+http://sepwww.stanford.edu/data/media/public/sep//jon/repropreface.html
+
+http://www.stanford.edu/~vcs/AAAS2011/
+
+http://wiki.stodden.net/Best_Practices_for_Researchers_Publishing_Computational_Results
+
+http://www.reproducibleresearch.net/index.php/RR_links
+
+http://reproducibleresearch.net/index.php/How_to
+
+http://biostat.mc.vanderbilt.edu/wiki/Main/StatReport
+
+http://www.reproducibility.org/RSF/book/rsf/scons/paper_html/node2.html
+
+# Web applications, services & organisations related to reproducible research
+
+http://centerforopenscience.org/
 
 http://recomputation.org/
 
@@ -151,6 +145,6 @@ http://sciencecodemanifesto.org/
 
 http://researchcompendia.org/
 
-https://collage.elsevier.com/
+http://www.runmycode.org/
 
-http://www.runmycode.org/home/?/CompanionSite/
+https://collage.elsevier.com/
