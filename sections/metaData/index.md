@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  Best Practices for Project Meta Data
+title:  Best Practices for Project Metadata
 date:   2014-03-30 14:12:14
 categories: 
 ---
 
-Meta data is the information that accompanies your code, its main purpose being description of function and usage.  Meta data is essential all code and data, but there are varying levels of what is acceptable dpending on many factors.  Often written in README files, the information you want to include with your work is for assurance of long-term usage of whatever work you are presenting.  There is many schemes developed to standardize meta data practices, for instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core). Since there are so many standards, it is best to strive to include as much detail as necessary and possible, in a concise fashion. 
+Metadata is the information that accompanies your code, its main purpose being description of function and usage.  Metadata is essential all code and data, but there are varying levels of what is acceptable dpending on many factors.  Often written in README files, the information you want to include with your work is for assurance of long-term usage of whatever work you are presenting.  There is many schemes developed to standardize metadata practices, for instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core). Since there are so many standards, it is best to strive to include as much detail as necessary and possible, in a concise fashion. 
 
-Often in the sciences, many projects can be split mainly into software, smaller tools, and data analysis. Here is a brief guide to helping you include the correct meta data to release with your work.
+Often in the sciences, many projects can be split mainly into software, smaller tools, and data analysis. Here is a brief guide to helping you include the correct metadata to release with your work.
 
-##Common  meta data to include in README  in the sciences
+##Common  metadata to include in README  in the sciences
 
 **Vital for Every Project**: Title, Author, Description, Date, License, 
 
