@@ -79,7 +79,7 @@ Vandewalle, P. et al. Reproducible research in signal processing - What, why, an
 
 Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida [link](http://www.crcpress.com/product/isbn/9781482203530) [Repo](https://github.com/yihui/knitr-book/)
 
-http://www.nature.com/nature/focus/reproducibility/
+[http://www.nature.com/nature/focus/reproducibility/](http://www.nature.com/nature/focus/reproducibility/)
 
 http://www.mendeley.com/groups/1142301/reproducible-research/papers/
 
