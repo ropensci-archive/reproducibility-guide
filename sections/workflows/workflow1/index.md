@@ -12,10 +12,10 @@ I think I am going to merge Project folder structure, workflows and introduction
 Here is what I came up with for diagrams.  The actual diagrams will have a better layout, that will go with the text I wrote, but I wanted them to make them extra big so you can see them clearly
 
 ###Key
-<img src="{{ site.baseurl }}/assets/img/key.png" class="img-responsive" alt="...">
-<hr>
+
 Manuscript using Latex workflow via @EDiLD 
 <img src="{{ site.baseurl }}/assets/img/workflow1b.png" class="img-responsive" alt="...">
+<img src="{{ site.baseurl }}/assets/img/key.png" class="img-responsive" alt="...">
 <hr>
 Manuscript Workflow via Kieran Healy 
 <img src="{{ site.baseurl }}/assets/img/workflow2.png" class="img-responsive" alt="...">
