@@ -15,7 +15,6 @@ There are many options for data storing depending on duration, data type, and st
 
 - [figshare](http://figshare.com/?gclid=CIzqiIXiu70CFeJF7AodQU8A_w)
 
-
 ### Data Package Manager
 
 - [dat](http://dat-data.com)
