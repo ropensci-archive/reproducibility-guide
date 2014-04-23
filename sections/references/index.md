@@ -85,6 +85,10 @@ http://www.nature.com/nature/focus/reproducibility/
 
 http://www.mendeley.com/groups/1142301/reproducible-research/papers/
 
+## Presentations
+
+Numerous excellent talks by Victoria Stodden, [slides and video](http://www.stanford.edu/~vcs/Talks.html)
+
 ## Blog posts on doing reproducible research (add yours!)
 
 http://byt.ghost.io/2014/04/12/on-reproducibility/
