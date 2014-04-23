@@ -73,6 +73,8 @@ Stodden V, Guo P, Ma Z (2013) Toward Reproducible Computational Research: An Emp
 
 Stodden V  2010 The Scientific Method in Practice: Reproducibility in the Computational Sciences. MIT Sloan School Working Paper 4773-10. [link](http://ssrn.com/abstract=1550193)
 
+Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the default to reproducible. computational science research. SIAM News, 46, 4-6. [pdf](http://www.davidhbailey.com/dhbpapers/icerm-report.pdf)
+
 Vandewalle, P. et al. Reproducible research in signal processing - What, why, and how. IEEE Signal Processing Magazine.26, (2009), 37-47. [pdf](http://rr.epfl.ch/17/1/VandewalleKV09.pdf)
 
 [Wilson, G. et al. Best Practices for Scientific Computing. 1-6.](http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001745)
