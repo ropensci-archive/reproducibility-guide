@@ -17,7 +17,7 @@ body {
   background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
-    font-size: 16px;
+    font-size: 20px;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
@@ -152,6 +152,8 @@ a:after {
 	margin-bottom: 0px;
 }
 
+
+
 #green h3 {
 	color: white;
 	font-weight: 400;
@@ -162,6 +164,14 @@ a:after {
 	color: white;
 	font-weight: 400;
 	font-size: 20px;
+}
+
+/* White */
+
+#white {
+	background-color: #FFFFFF;
+	padding-top: 50px;
+	margin-bottom: 0px;
 }
 
 /* Skills */

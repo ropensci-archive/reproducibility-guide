@@ -59,7 +59,7 @@
                 <div class="row">
             
                    
-                <h1><b> Data Archiving </b></h1>
+                <h1><b> Short Workflow for R Reports </b></h1>
                 </br>
                 </br>
                 
@@ -77,27 +77,33 @@
                 </br>
                 </br>
 
-                <p>There are many options for data storing depending on duration, data type, and step in data processing.  Simplifying  work flows by having data deposition in central accessible locations helps maintain continuity in analysis and communication. Although there are many options for data storage at the moment, the discussion of the future our scientific data is still evolving and very much in debate.  Scientists should be conscious of how and where our data will be housed at every stage of our research. </p>
+                <h3>Components</h3>
 
-<h3>Data Storage Options</h3>
+<p>Programs: R Studio
+Packages: rmarkdown
+Input files: .Rmd, data (.csv, .txt)</p>
 
-<ul>
-<li><a href="https://knb.ecoinformatics.org/#data/page/0">knb</a> Focuses on large ecological datasets, specific to <a href="http://en.wikipedia.org/wiki/Ecological_Metadata_Language">Ecological Meta Data Languagee</a> XML data formats. </li>
-<li><a href="http://www.dataone.org/">dataONE</a> Focus on environmental science, community run.</li>
-<li><p><a href="http://datadryad.org/">Data Dyrad</a> Dyrad is free to educators, researchers, and students. They do encourage everyone else to donate to their share of the costs.  </p></li>
-<li><p><a href="http://figshare.com/?gclid=CIzqiIXiu70CFeJF7AodQU8A_w">figshare</a> A digital repository for scientific products such as data, figures, images, movies, and other content that accompanies how research is communicated. </p></li>
-</ul>
+<h3>Description</h3>
 
-<h3>Data Package Manager</h3>
+<p>Short way to generate reports and documentation in R by combining the power of pandoc and knitr.  </p>
 
-<ul>
-<li><a href="http://dat-data.com">dat</a></li>
-<li><a href="http://datadex.io">datadex.io</a></li>
-</ul>
+<h3>What you need to know</h3>
 
-<h2>Resources</h2>
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown</a> Cheat sheet via <a href="https://github.com/adam-p">@adam-p</a>.</p>
 
-<p>See <a href="http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers">The Case for Data Package Managers</a>.</p>
+<p><a href="http://rmarkdown.rstudio.com/authoring_rcodechunks.html">R Code Chunks</a> R Markdown documentation.</p>
+
+<p><img src="/assets/img/workflow01.png" class="img-responsive" alt="...">
+<hr></p>
+
+<p>While working in R, you can generate versatile R reports by installing the package rmarkdown (<a href="http://rmarkdown.rstudio.com/index.html">documentation here</a>).  Current versions of R Studio include the package.  To install in general R installization use.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">install.packages(&quot;devtools&quot;)
+devtools::install_github(&quot;rstudio/rmarkdown&quot;) 
+</code></pre></div>
+<p>To generate documents use the render command, specifiying file input and type of output. </p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">render(&quot;input.Rmd&quot;, &quot;pdf_document&quot;)
+</code></pre></div>
+<p>You get get further into the output customization by modification of <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">pandoc</a> specifications.</p>
 
                     
                 </br>

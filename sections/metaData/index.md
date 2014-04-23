@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  Best Practices for Project Meta Data
+title:  Best Practices for Project Metadata
 date:   2014-03-30 14:12:14
 categories: 
 ---
 
-Meta data is the information that accompanies your code, its main purpose being description of function and usage.  Meta data is essential all code and data, but there are varying levels of what is acceptable dpending on many factors.  Often written in README files, the information you want to include with your work is for assurance of long-term usage of whatever work you are presenting.  There is many schemes developed to standardize meta data practices, for instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core). Since there are so many standards, it is best to strive to include as much detail as necessary and possible, in a concise fashion. 
+Metadata is the information that accompanies your code and data, its main purpose being description of function and usage.  Someone can collect data, but often times forget documentation and overtime the data increasingly becomes broken as the meaning decays.  There are varying levels of what is acceptable depending on many factors.  Often written in README files, the information you want to include with your work is for assurance of long-term usage.  Many schemes have been developed to standardize metadata practices. For instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core) for code, but many communities adopt their own. Since [there are many standards in sciences](https://library.uoregon.edu/datamanagement/repositories.html), it is often worth checking on specifics of where your code and data are housed.
 
-Often in the sciences, many projects can be split mainly into software, smaller tools, and data analysis. Here is a brief guide to helping you include the correct meta data to release with your work.
+Often many projects can be split into software, smaller tools, and data analysis. Here is a brief guide to helping you include appropriate meta data to release with your work.
 
-##Common  meta data to include in README  in the sciences
+##Common  meta data to include in README files for code
 
 **Vital for Every Project**: Title, Author, Description, Date, License, 
 
@@ -17,7 +17,9 @@ Often in the sciences, many projects can be split mainly into software, smaller 
 
 **Vital for Larger Programs**: Tests, How to run Tests, Run Times Under Commonly Used Platforms, Sample Input and Output Data, Sample Run Usage,
 
-##A list of Questions to ask yourself about what
+##If vague about meta data requirements
+
+###A list of Questions to ask yourself about what meta data to include
 via @manics and @cboettig
 
 In addition to checking for the specificities of the type of project you are working on, for instance R package submission in CRAN requires specific schema, ask yourself these questions:
@@ -37,7 +39,9 @@ In addition to checking for the specificities of the type of project you are wor
 - Use cases?
 - Situations that it's not designed for?
 
-##Resources
+
+
+
 
 
 

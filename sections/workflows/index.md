@@ -1,47 +1,26 @@
 ---
 layout: post
-title:  Useful Workflows
+title:  Useful Work Flows
 date:   2014-03-30 
 categories: 
 ---
 
-###Useful Work flows for writing and reproducibility 
+Developing a work flow that works for you can save you and your collaborators, days, weeks, or even months of time.  Most importantly, it keeps your project tightly glued together, making the project a single sharable unit.  This allows anyone to explore and reproduce scientific work with limited conflict. In the long term, it is an investment all researchers should be thinking about.  
+Although some work flows can seem incredibly complex, an important aspect to notice is modularity.  Start simple and gradually add to your work flow.  The modularity of work flows allows unprecedented flexibility and customization.  The whole goal is to effortlessly update any aspect of your research without it affecting and making any other aspect obsolete and dated.  This allows you to focus on the work rather than keeping track of the work.  With a fine tuned work flow, you can just add the data to the front end of your work flow and instantaneously it is analyzed and visualized in repeatable ways, outputting end products such as presentations, reports, notebooks, and manuscripts. 
 
-I think I am going to merge Project folder structure, workflows and introduction to tools all in this page.
+##Choosing Your Work Flow
 
-Here is what I came up with for diagrams.  The actual diagrams will have a better layout, that will go with the text I wrote, but I wanted them to make them extra big so you can see them clearly
+You want to think about what the final output of your work will be.  The more outputs, the more complex the work flow.  Are you at a point in your project where all you need is documentation of analysis being performed in R?  Then maybe all you need to do is use R/RStudio and the R package knitr.  Are you going to analyze your data and while writing your manuscript and want to keep them in the same work flow for parallel updating, then you will need a bit more modules to your work flow. 
 
-###Key
-<img src="{{ site.baseurl }}/assets/img/key.png" class="img-responsive" alt="...">
-<hr>
-Manuscript using Latex workflow via @EDiLD 
-<img src="{{ site.baseurl }}/assets/img/workflow1b.png" class="img-responsive" alt="...">
-<hr>
-Manuscript Workflow via Kieran Healy 
-<img src="{{ site.baseurl }}/assets/img/workflow2.png" class="img-responsive" alt="...">
-<hr>
-Website
-<img src="{{ site.baseurl }}/assets/img/workflow3.png" class="img-responsive" alt="...">
-<hr>
-
-
-###More examples?
-
-- Sweave Example
-- [Markdown Authoring Guide](https://github.com/scholmd/scholmd/wiki/Tools-to-support-your-markdown-authoring)
-- Project Folder Structure Examples
+Fortunately, most researchers require similar operations, so we can employ work flows that have been optimized by others. The overall goal to work is to work within a framework that encourages universal reproducibility, both for yourself and others interested in your work. 
 
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-      <img src="{{ site.baseurl }}/assets/img/workflow1.png" alt="workflowDiagram">
+      <img src="{{ site.baseurl }}/assets/img/workflow01.png" alt="workflowDiagram">
       <div class="caption">
-        <h3>Example</h3>
-        <p>Tools: R, Pandoc, Markdown.  This is just an example.  It would be great if we could develop a way make workflows easy, so in the future more people could submit their workflows. </p>
-        <p><a href="" class="btn btn-primary" role="button">Click to enlarge</a></p>
-      </div>
+        <h3>Short work flow for R reports</h3>
+        <p>Tools: Markdown, R/R studio, rmarkdown (R package), pandoc, knitr </p>
+        <p><a href="{{ site.baseurl }}/sections/workflows/workflow1" class="btn btn-primary" role="button">More</a></p>
     </div>
   </div>
-</div>
-
-
