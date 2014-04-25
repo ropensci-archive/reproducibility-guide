@@ -5,9 +5,9 @@ date:   2014-03-30 14:12:14
 categories: 
 ---
 
-Metadata is the information that accompanies your code and data, its main purpose being description of function and usage.  Someone can collect data, but often times forget documentation and overtime the data increasingly becomes broken as the meaning decays.  There are varying levels of what is acceptable depending on many factors.  Often written in README files, the information you want to include with your work is for assurance of long-term usage.  Many schemes have been developed to standardize metadata practices. For instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core) for code, but many communities adopt their own. Since [there are many standards in sciences](https://library.uoregon.edu/datamanagement/repositories.html), it is often worth checking on specifics of where your code and data are housed.
+Metadata is the information that accompanies your code and data, its main purpose being description of function and usage.  Someone can collect data, but often times forget documentation and overtime the data increasingly becomes broken as the information decays.  There are varying levels of what is acceptable depending on many factors.  Often written in README files, the information you want to include with your code and data is for assurance of long-term usage.  Many schemes have been developed to standardize metadata practices. For instance one of the most popular is the [Dublin Core](http://en.wikipedia.org/wiki/Dublin_Core) for code, but many communities adopt their own. Since [there are many standards in sciences](https://library.uoregon.edu/datamanagement/repositories.html), it is often worth checking on specifics of where your code and data are housed.
 
-Often many projects can be split into software, smaller tools, and data analysis. Here is a brief guide to helping you include appropriate meta data to release with your work.
+Many projects can be split into software, smaller tools, and data analysis. Here is a brief guide to helping you include appropriate meta data to release with your work.
 
 ##Common  meta data to include in README files for code
 
