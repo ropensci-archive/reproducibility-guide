@@ -5,8 +5,12 @@ date:   2014-03-31
 categories: 
 ---
 
-Graeci aeterno theophrastus ad sed, no tibique posidonium quo, eos no augue postea latine. Novum dictas percipit usu an, sed ex animal volutpat. Qui ei legere saperet oportere, duo at tota putent. No qui iriure probatus, nam liber nullam voluptatibus te. Magna modus cotidieque at usu.
+Reproducibility is an increasingly important topic in discussions of doing good science. As science becomes more complex, particularly due to the increased role of computational methods, it is less likely that the descriptions contained in scholarly publications are sufficient for others to obtain substantially similar results on their own or extend the published method to new data or new applications. Here, we discuss some of the principles, definitions and complexities of reproducible research and outline some basic steps for promoting reproducibility. While our specific tool and workflow suggestions focus on the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. 
 
-Ea est soluta menandri. Sea nobis evertitur an, mel id probatus mandamus conclusionemque. Nam ne paulo verterem platonem, amet modus meliore et eos. Ex quo movet noluisse, agam timeam denique in sea, quod utinam patrioque no mei. Nec ipsum verterem ut, ad eam odio fuisset.
+Principles of Reproducible Research
 
-Et dicit graeco vix. Affert incorrupte cum at, essent veritus theophrastus te sed, et appetere recusabo volutpat eum. Iriure sensibus his id, diceret oporteat at mel. Integre debitis constituam ea per.
+Definitions of Reproducible Research
+
+Complexities and challenges of Reproducible Research
+
+Basic steps for promoting Reproducible Research 
