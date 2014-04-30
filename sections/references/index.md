@@ -95,6 +95,9 @@ Numerous excellent talks by Victoria Stodden, [slides and video](http://www.stan
 
 ## Blog posts on doing reproducible research (add yours!)
 
+[
+http://blogs.msdn.com/b/msr_er/archive/2014/04/29/reproducible-research-are-we-there-yet.aspx](http://blogs.msdn.com/b/msr_er/archive/2014/04/29/reproducible-research-are-we-there-yet.aspx)
+
 [http://byt.ghost.io/2014/04/12/on-reproducibility/](http://byt.ghost.io/2014/04/12/on-reproducibility/)
 
 [http://yihui.name/en/tags/ReproducibleResearch](http://yihui.name/en/tags/ReproducibleResearch)
