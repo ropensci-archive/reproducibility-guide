@@ -5,7 +5,10 @@ date:   2014-03-31
 categories: 
 ---
 
-## Scholarly literature on reproducible research
+This page is a curated list of scholarly literature, conference presentations, blog posts, videos, websites and other resources relevant to reproducible research. Please add your own items by making a pull request at our [github repository](https://github.com/ropensci/reproducibility-guide/blob/gh-pages/sections/references/index.md). 
+
+
+## Scholarly literature on reproducible research (in alphabetical order)
 
 Barnes, N. Publish your computer code: it is good enough. Nature. 467, (2010), 753.(http://www.nature.com/news/2010/101013/full/467753a.html) [pdf](http://www.nature.com/news/2010/101013/pdf/467753a.pdf)
 
@@ -63,7 +66,9 @@ Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproduci
 
 Savage, C.J. and Vickers, A.J. Empirical study of data sharing by authors publishing in PLoS journals. PloS one. 4, (2009),7078.](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0007078#pone-0007078-g001)
 
-Schofield, P.N. et al. Post-publication sharing of data and tools. Nature. 461, (2009), 171-173. [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461171a.pdf)
+Schofield, P.N. et al. 2009 Post-publication sharing of data and tools. Nature. 461, 171-173. [pdf](http://www.nature.com/nature/journal/v461/n7261/pdf/461171a.pdf)
+
+Stodden, V., F. Leisch, R. Peng 2014. Implementing Reproducible Research. CDC Press/CRC The R Series. [PDFs of all chapters](https://osf.io/s9tya/files/)
 
 Stodden, V. 2014 What scientific idea is ready for retirement? Reproducibility. Edge.org [link](http://edge.org/response-detail/25340)
 
@@ -89,11 +94,11 @@ Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida [link](http://w
 
 [http://www.mendeley.com/groups/1142301/reproducible-research/papers/](http://www.mendeley.com/groups/1142301/reproducible-research/papers/)
 
-## Presentations
+## Presentations (most recent at the top)
 
 Numerous excellent talks by Victoria Stodden, [slides and video](http://www.stanford.edu/~vcs/Talks.html)
 
-## Blog posts on doing reproducible research (add yours!)
+## Blog posts on doing reproducible research (add yours! most recent at the top)
 
 [
 http://blogs.msdn.com/b/msr_er/archive/2014/04/29/reproducible-research-are-we-there-yet.aspx](http://blogs.msdn.com/b/msr_er/archive/2014/04/29/reproducible-research-are-we-there-yet.aspx)
@@ -128,7 +133,7 @@ http://blogs.msdn.com/b/msr_er/archive/2014/04/29/reproducible-research-are-we-t
 
 [http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/](http://blog.stodden.net/2013/04/19/what-the-reinhart-rogoff-debacle-really-shows-verifying-empirical-results-needs-to-be-routine/)
 
-## Websites with resources to enable reproducible research (ie. a list of lists)
+## Websites with resources to enable reproducible research (ie. a list of lists, in no particular order)
 
 [http://kbroman.github.io/Tools4RR/](http://kbroman.github.io/Tools4RR/)
 
