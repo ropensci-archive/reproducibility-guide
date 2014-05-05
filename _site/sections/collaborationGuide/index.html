@@ -93,51 +93,55 @@
 
 <p><em>(requires base knowledge of git. Remixed from Karl Broman&#39;s <a href="http://kbroman.github.io/github_tutorial/pages/fork.html">github Guide - Contribute to Someone&#39;s repository</a></em></p>
 
-<p>Say you want to contribute changes to our code repository.</p>
-
 <ul>
-<li><p>Go to the repository on github.  (This site is from <code>ropensci</code>, and is
-called <code>reproducibility-guide</code>, you&#39;ll find it at <code>https://github.com/ropensci/reproducibility-guide</code>.</p></li>
+<li><p>Say you want to contribute changes to our code repository.</p></li>
+<li><p>Go to the repository on github.  (This site is from <code>ropensci</code>, and is called <code>reproducibility-guide</code>, you&#39;ll find it at <code>https://github.com/ropensci/reproducibility-guide</code>.</p></li>
 <li><p>Click the fork  <i class="fa fa-code-fork"></i> button at the top right.</p></li>
 <li><p>You&#39;ll now have your own copy of that repository in your github account.</p></li>
-<li><p>Open a terminal/shell.</p></li>
+<li><p>Open a terminal/shell. </p></li>
 <li><p>Type</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git clone https://github.com/username/reproducibility-guide.git
+</code></pre></div></li>
+</ul>
 
-<p>$ git clone https://github.com/username/reproducibility-guide.git</p>
+<p>where <code>username</code> is <em>your</em> username.</p>
 
-<p>where <code>username</code> is <em>your</em> username.</p></li>
+<ul>
 <li><p>You&#39;ll now have a local copy of <em>your version</em> of that repository called &quot;origin&quot;</p></li>
 <li><p>Add a connection to the original owner&#39;s repository and calling it &quot;master&quot;.</p>
-
-<p>$ git remote add master https://github.com/ropensci/reproducibility-guide.git</p></li>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git remote add master https://github.com/ropensci/reproducibility-guide.git
+</code></pre></div></li>
 <li><p>You can check if this worked with the command.  You should see the connection to <em>your version</em> of the repository and the ropensci &quot;master&quot;
 version.</p>
-
-<p>git remote -v</p></li>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git remote -v
+</code></pre></div></li>
 <li><p>Now you can make changes to files.  The main branch for the Reproducibility Guide site is <code>gh-pages</code>.  You may also start another branch for to work on.  To check which branch you are on type <code>git branch</code>.</p></li>
 <li><p><code>git add</code> and <code>git commit</code> those changes</p></li>
 <li><p><code>git push</code> them back to <a href="http://github.com">github</a>.  These will go
 to <em>your version</em> of the repository.</p></li>
 <li><p>Go to <em>your version</em> of the repository on github.</p></li>
 <li><p>Click the green &ldquo;Pull Request&rdquo; button at the top of the page.</p></li>
-<li><p>Note that the ropensci repository will be on the left and <em>your
-repository</em> will be on the right.</p></li>
-<li><p>Give a short explanation of the changes and click the &ldquo;Send
-pull request&rdquo; button.</p></li>
+<li><p>Note that the ropensci repository will be on the left and <em>your repository</em> will be on the right.</p></li>
+<li><p>Give a short explanation of the changes and click the &ldquo;Send pull request&rdquo; button.</p></li>
 </ul>
 
 <h2>Pulling others’ changes</h2>
 
-<p>Before you make further changes to the repository, you should check that your version is up to date relative to your friend’s version.</p>
-
-<p>Go into the directory for the project and type:</p>
+<ul>
+<li><p>Before you make further changes to the repository, you should check that your version is up to date relative to your friend’s version.</p></li>
+<li><p>Go into the directory for the project and type:</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">$ git pull ropensci master
-</code></pre></div>
+</code></pre></div></li>
+</ul>
+
 <p>This will pull down and merge all of the changes that your friend has made.</p>
 
-<p>Now push them back to your github repository.</p>
+<ul>
+<li><p>Now push them back to your github repository.</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">$ git push
-</code></pre></div>
+</code></pre></div></li>
+</ul>
+
 <h2>Add yourself to the contributors section</h2>
 
 <p>Now that you have contributed, you can add yourself to the <a href="http://ropensci.github.io/reproducibility-guide/contributors/">list of contributors</a>.  The file to add your name to is located in the contributors folder in the main directory, just add your name to the index.md file housed <a href="https://github.com/ropensci/reproducibility-guide/tree/gh-pages/contributors">here</a>.</p>
