@@ -37,7 +37,7 @@ Say you want to contribute changes to our code repository.
 
   where `username` is _your_ username.
 
-- You'll now have a local copy of _your version_ of that repository.
+- You'll now have a local copy of _your version_ of that repository called "origin"
 
 - Add a connection to the original owner's repository and calling it "upstream".
 
@@ -48,7 +48,7 @@ version.
 
     git remote -v
 
-- Now you can make changes to files.
+- Now you can make changes to files.  The main branch for the Reproducibility Guide site is `gh-pages`.  You may also start another branch for to work on.  To check which branch you are on type `git branch`.
 
 - `git add` and `git commit` those changes
 
@@ -77,8 +77,7 @@ This will pull down and merge all of the changes that your friend has made.
 
 Now push them back to your github repository.
 
-$ git push
-
+    $ git push
 
 ##Resources
 
