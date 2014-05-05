@@ -45,7 +45,7 @@ Computational reproducibility has attracted a lot of recent attention from a wid
 
 ## Reproducible
 
-Complexities and challenges of Reproducible Research
+## Complexities and challenges of Reproducible Research
 
 RRS
 
@@ -54,3 +54,21 @@ Basic steps for promoting Reproducible Research
 - literate programming
 
 - teaching, reviewing
+
+Lessons learned from [Collberg et al. 2014](http://reproducibility.cs.arizona.edu/tr.pdf)
+
+- Unless you have compelling reasons not to, plan to release the code. It is the right thing to do, and if you start with this mind-set from the beginning of the project, the amount of extra work will likely be negligible.
+- Students will leave, plan for it. When building the system keep in mind that the code should outlive both you and the student.
+- Create permanent email addresses. You and your students will most likely be changing jobs a few times during your career. While some schools will keep old email addresses around, or forward email, you cannot count on it. Create email addresses that you know will be
+permanent throughout your working life and use them in all professional correspondence.
+- Create project websites. These are more likely to remain functional over time than email addresses. Put the URL in the paper. Be prepared to upload code and test data to your web sites at the same time as you upload the paper describing your system to a conference site for review.
+- Use a source code control system. Whenever you submit or publish a paper, set a label on the corresponding code version so that you can easily recreate it.
+- Backup your code.
+- Resolve licensing issues. If you anticipate problems start the licensing process early, so that you are able to release the code at the same time as the paper is submitted for publication.
+- Keep your promises. If your grant application states that you will be sharing code with the community, plan for keeping that promise.
+- Plan for longevity. Projects may live on for a long time, with many students building on the code. Plan for this at the onset of the project, by setting up the appropriate directory structures, plug-in architectures, etc., which will allow the project to grow.
+- Avoid cool but unusual designs. Unless you have a compelling reason to do otherwise, stay with standard operating systems, programming languages, and tool chains.
+- Plan for Reproducible Releases. Use the same techniques that Release Managers in industry use to ensure consistent and reproducible builds. For example, check in your entire tool chain (compilers, linkers, libraries, etc.) into your source code control system, and start
+any release by building the tool chain from scratch. There is an extra startup cost when beginning a new project, but this will be paid off over time. It will, for example, make it easier for new students to join the project.
+
+Recommendation:  every article be required to specify the level of reproducibility a reader or reviewer should expect.
