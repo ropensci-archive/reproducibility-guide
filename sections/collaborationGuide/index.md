@@ -39,11 +39,11 @@ Say you want to contribute changes to our code repository.
 
 - You'll now have a local copy of _your version_ of that repository called "origin"
 
-- Add a connection to the original owner's repository and calling it "upstream".
+- Add a connection to the original owner's repository and calling it "master".
 
-      $ git remote add upstream https://github.com/ropensci/reproducibility-guide.git
+      $ git remote add master https://github.com/ropensci/reproducibility-guide.git
 
-- You can check if this worked with the command.  You should see the connection to _your version_ of the repository and the ropensci "upstream"
+- You can check if this worked with the command.  You should see the connection to _your version_ of the repository and the ropensci "master"
 version.
 
     git remote -v
@@ -71,7 +71,7 @@ Before you make further changes to the repository, you should check that your ve
 
 Go into the directory for the project and type:
 
-    $ git pull ropensci upstream
+    $ git pull ropensci master
 
 This will pull down and merge all of the changes that your friend has made.
 
