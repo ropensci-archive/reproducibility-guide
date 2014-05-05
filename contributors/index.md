@@ -7,6 +7,6 @@ categories:
 
 [Ciera Martinez](http://cierareports.org/) - PhD Candidate studying plant biology at UC Davis. <a href="https://github.com/iamciera"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/cierareports"><i class="fa fa-twitter fa-1.5x"></i> </a>
 
-[Jeff Hollister](http://jwhollister.com) - Research Ecologist with USEPA, Atlantic Ecology Division.  <a href="https://github.com/jhollist"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/jhollist"><i class="fa fa-twitter fa-1.5x"></i> </a>
+[Jeff Hollister](http://jwhollister.com) - Research Ecologist with USEPA, Atlantic Ecology Division.  <a href="https://github.com/jhollist"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/jhollist">  <i class="fa fa-twitter fa-1.5x"></i> </a>
 
  
