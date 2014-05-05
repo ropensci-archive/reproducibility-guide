@@ -33,7 +33,7 @@ Computational reproducibility has attracted a lot of recent attention from a wid
 
 Definitions of Reproducible Research
 
-Leveque et al setting the default
+Leveque et al setting the default add more here
 
 Complexities and challenges of Reproducible Research
 
