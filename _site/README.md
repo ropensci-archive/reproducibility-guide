@@ -1,7 +1,7 @@
 reproducibility-guide
 =====================
 
-This is the project page for creating a guide to reproducibile research.  The purpose is to be a quick references for best practices in making scientific research accessible and reproducible.  
+This is the project page for creating a guide to reproducible research.  The purpose is to be a quick references for best practices in making scientific research accessible and reproducible.  
 
 Ideas for the guide came  [https://github.com/ropensci/hackathon/issues/22](https://github.com/ropensci/hackathon/issues/22) and [https://github.com/mozillascience/code-research-object/issues/2](https://github.com/mozillascience/code-research-object/issues/2).
 
@@ -13,4 +13,7 @@ If you think you can help in anyway, awesome.  Feel free to create issues with y
 
 Slack Channel: #reproducibility-guide
 
+
+
+=======
 
