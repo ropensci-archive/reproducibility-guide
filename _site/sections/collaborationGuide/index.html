@@ -95,36 +95,45 @@
 
 <p>Say you want to contribute changes to our code repository.</p>
 
-<ul>
-<li><p>Go to the repository on github.  (This site is from <code>ropensci</code>, and is
-called <code>reproducibility-guide</code>, you&#39;ll find it at <code>https://github.com/ropensci/reproducibility-guide</code>.</p></li>
-<li><p>Click the fork  <i class="fa fa-code-fork"></i> button at the top right.</p></li>
-<li><p>You&#39;ll now have your own copy of that repository in your github account.</p></li>
-<li><p>Open a terminal/shell.</p></li>
-<li><p>Type</p>
+<p>Go to the repository on github.  (This site is from <code>ropensci</code>, and is
+  called <code>reproducibility-guide</code>, you&#39;ll find it at <code>https://github.com/ropensci/reproducibility-guide</code>.</p>
 
-<p>$ git clone https://github.com/username/reproducibility-guide.git</p>
+<p>Click the fork  <i class="fa fa-code-fork"></i> button at the top right.</p>
 
-<p>where <code>username</code> is <em>your</em> username.</p></li>
-<li><p>You&#39;ll now have a local copy of <em>your version</em> of that repository called &quot;origin&quot;</p></li>
-<li><p>Add a connection to the original owner&#39;s repository and calling it &quot;master&quot;.</p>
+<p>You&#39;ll now have your own copy of that repository in your github account.</p>
 
-<p>$ git remote add master https://github.com/ropensci/reproducibility-guide.git</p></li>
-<li><p>You can check if this worked with the command.  You should see the connection to <em>your version</em> of the repository and the ropensci &quot;master&quot;
+<p>Open a terminal/shell. </p>
+
+<p>Type</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git clone https://github.com/username/reproducibility-guide.git
+</code></pre></div>
+<p>where <code>username</code> is <em>your</em> username.</p>
+
+<p>You&#39;ll now have a local copy of <em>your version</em> of that repository called &quot;origin&quot;</p>
+
+<p>Add a connection to the original owner&#39;s repository and calling it &quot;master&quot;.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git remote add master https://github.com/ropensci/reproducibility-guide.git
+</code></pre></div>
+<p>You can check if this worked with the command.  You should see the connection to <em>your version</em> of the repository and the ropensci &quot;master&quot;
 version.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git remote -v
+</code></pre></div>
+<p>Now you can make changes to files.  The main branch for the Reproducibility Guide site is <code>gh-pages</code>.  You may also start another branch for to work on.  To check which branch you are on type <code>git branch</code>.</p>
 
-<p>git remote -v</p></li>
-<li><p>Now you can make changes to files.  The main branch for the Reproducibility Guide site is <code>gh-pages</code>.  You may also start another branch for to work on.  To check which branch you are on type <code>git branch</code>.</p></li>
-<li><p><code>git add</code> and <code>git commit</code> those changes</p></li>
-<li><p><code>git push</code> them back to <a href="http://github.com">github</a>.  These will go
-to <em>your version</em> of the repository.</p></li>
-<li><p>Go to <em>your version</em> of the repository on github.</p></li>
-<li><p>Click the green &ldquo;Pull Request&rdquo; button at the top of the page.</p></li>
-<li><p>Note that the ropensci repository will be on the left and <em>your
-repository</em> will be on the right.</p></li>
-<li><p>Give a short explanation of the changes and click the &ldquo;Send
-pull request&rdquo; button.</p></li>
-</ul>
+<p><code>git add</code> and <code>git commit</code> those changes</p>
+
+<p><code>git push</code> them back to <a href="http://github.com">github</a>.  These will go
+  to <em>your version</em> of the repository.</p>
+
+<p>Go to <em>your version</em> of the repository on github.</p>
+
+<p>Click the green &ldquo;Pull Request&rdquo; button at the top of the page.</p>
+
+<p>Note that the ropensci repository will be on the left and <em>your
+  repository</em> will be on the right.</p>
+
+<p>Give a short explanation of the changes and click the &ldquo;Send
+  pull request&rdquo; button.</p>
 
 <h2>Pulling others’ changes</h2>
 
