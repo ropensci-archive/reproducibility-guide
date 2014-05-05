@@ -15,7 +15,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Neuzeit";
     font-weight: 300;
     font-size: 20px;
     color: #555;
@@ -23,12 +23,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Neuzeit";
     font-weight: 300;
     color: #333;
 }
