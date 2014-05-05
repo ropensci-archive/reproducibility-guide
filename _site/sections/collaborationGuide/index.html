@@ -106,15 +106,15 @@ called <code>reproducibility-guide</code>, you&#39;ll find it at <code>https://g
 <p>$ git clone https://github.com/username/reproducibility-guide.git</p>
 
 <p>where <code>username</code> is <em>your</em> username.</p></li>
-<li><p>You&#39;ll now have a local copy of <em>your version</em> of that repository.</p></li>
-<li><p>Add a connection to the original owner&#39;s repository and calling it &quot;upstream&quot;.</p>
+<li><p>You&#39;ll now have a local copy of <em>your version</em> of that repository called &quot;origin&quot;</p></li>
+<li><p>Add a connection to the original owner&#39;s repository and calling it &quot;master&quot;.</p>
 
-<p>$ git remote add upstream https://github.com/ropensci/reproducibility-guide.git</p></li>
-<li><p>You can check if this worked with the command.  You should see the connection to <em>your version</em> of the repository and the ropensci &quot;upstream&quot;
+<p>$ git remote add master https://github.com/ropensci/reproducibility-guide.git</p></li>
+<li><p>You can check if this worked with the command.  You should see the connection to <em>your version</em> of the repository and the ropensci &quot;master&quot;
 version.</p>
 
 <p>git remote -v</p></li>
-<li><p>Now you can make changes to files.</p></li>
+<li><p>Now you can make changes to files.  The main branch for the Reproducibility Guide site is <code>gh-pages</code>.  You may also start another branch for to work on.  To check which branch you are on type <code>git branch</code>.</p></li>
 <li><p><code>git add</code> and <code>git commit</code> those changes</p></li>
 <li><p><code>git push</code> them back to <a href="http://github.com">github</a>.  These will go
 to <em>your version</em> of the repository.</p></li>
@@ -131,14 +131,13 @@ pull request&rdquo; button.</p></li>
 <p>Before you make further changes to the repository, you should check that your version is up to date relative to your friend’s version.</p>
 
 <p>Go into the directory for the project and type:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git pull ropensci upstream
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git pull ropensci master
 </code></pre></div>
 <p>This will pull down and merge all of the changes that your friend has made.</p>
 
 <p>Now push them back to your github repository.</p>
-
-<p>$ git push</p>
-
+<div class="highlight"><pre><code class="text language-text" data-lang="text">$ git push
+</code></pre></div>
 <h2>Resources</h2>
 
 <p><a href="http://kbroman.github.io/github_tutorial/">Full git/github</a> - Karl Broman </p>
