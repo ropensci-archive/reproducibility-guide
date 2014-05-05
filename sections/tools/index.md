@@ -5,7 +5,7 @@ date:   2014-03-30
 categories: 
 ---
 
-The current ecosystem of tools for developing reproducible research documents with R is small, but growing and changing frequently.  We have included a collection of annotated links below that provide additional information about the tools that are included in a number of the [workflows detailed on this site](http://ropensci.github.io/reproducibility-guide/2014/03/30/Useful-Workflows.html). All the tools listed to here are free. 
+The current ecosystem of tools for developing reproducible research documents with R is small, but growing and changing.  These tools are further combined to create dynamic [workflows]({{ site.baseurl/workflows/}}), allowing unprecedented organization of scientific work.  The following links provide additional information about the tools referenced on this site.  All the tools listed here are free. 
 
 ## Authoring
 
@@ -21,12 +21,9 @@ The current ecosystem of tools for developing reproducible research documents wi
 ## R Packages
 
 - [knitr](http://yihui.name/knitr/): This package is the engine for dynamic report generation in R. It allows narrative and code to be written in the same document or in explicitly linked documents. When a document is 'knitted', the R code is executed, figures and tables are generated, and the narrative text is formatted according to the markdown syntax provided. 
-- [rmarkdown](https://github.com/rstudio/rmarkdown): This package interprets the markdown syntax to format the text (for example with styled headings of different levels, bold and italic text) and recognises the chunks of R code as computable content. <!-- BM: this is rather awkward-sounding, improvements welcome! -->
+- [rmarkdown](https://github.com/rstudio/rmarkdown): This package interprets the markdown syntax to format the text (for example with styled headings of different levels, bold and italic text) and recognises the chunks of R code as computable content. 
 - [slidify](http://slidify.org): This package turns rmarkdown documents into slides that can be presented in a browser. Several popular slide frameworks are built-in and can be further customised with CSS.
 
-<!-- BM: rmarkdown defn is rather awkward-sounding, improvements welcome! -->
-<!-- NOTE: Struggled with what to call this category -->
-<!-- BM: split it up since pandoc isn't really in the same category as the blogging platforms-->
 ## Document Conversion 
 
 - [pandoc](http://johnmacfarlane.net/pandoc/): A universal document converter, open source and cross-platform. Commonly used in R-based workflows to convert markdown into HTML/PDF/docx, but also capable of many other conversions. 
