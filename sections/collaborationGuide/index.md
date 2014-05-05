@@ -79,6 +79,10 @@ Now push them back to your github repository.
 
     $ git push
 
+##Add yourself to the contributors section
+
+Now that you have contributed, you can add yourself to the [list of contributors](http://ropensci.github.io/reproducibility-guide/contributors/).  The file to add your name to is located in the contributors folder in the main directory, just add your name to the index.md file housed [here](https://github.com/ropensci/reproducibility-guide/tree/gh-pages/contributors).
+
 ##Resources
 
 [Full git/github](http://kbroman.github.io/github_tutorial/) - Karl Broman 
