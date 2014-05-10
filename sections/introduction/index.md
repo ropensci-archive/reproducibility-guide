@@ -7,7 +7,7 @@ categories:
 
 # Introduction 
 
-Reproducibility is an increasingly important topic in discussions of doing good science. Reproducible research used to be normal science, in the days when science was simpler and publications captured most of the key details. Now that science is more complex, reproducing published results has become problematic. Tackling the challenges of doing reproducible research has resulted in a lot of discussion in papers, blogs and videos, which we list [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
+Reproducibility is an increasingly important topic in discussions of doing good science. Reproducible research used to be normal science, in the days when science was simpler and publications captured most of the key details. Now that science is more complex, reproducing published results has become problematic. Tackling the challenges of doing reproducible research has resulted in a lot of discussion in papers, blogs and videos, which we list a sample of [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
 
 In this short introduction, we briefly summarise some of the principles, definitions and questions relevant to reproducible research that have emerged in the literature. We also outline some basic and widely applicable steps for promoting reproducibility. While our tool and workflow suggestions focus on the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. You are welcome to contribute to this guide (fix typos, add to the [reference list](https://github.com/ropensci/reproducibility-guide/blob/gh-pages/sections/references/index.md), etc.) by submitting a pull request to its [github repository](https://github.com/ropensci/reproducibility-guide). 
 
@@ -61,7 +61,7 @@ For many domains of science there are already several options for software tools
 
 - **Automation** Several Unix tools enable you to automate and document many steps of the research process, especially manipulating files, moving input and output between different parts of your workflow, and compiling documents for publication. Scripts for [shell programs](http://www.gnu.org/software/bash/) and [make](http://www.gnu.org/software/make/) files enable you to have highly efficient and easily repeatable control of your computer. These scripts enable you to keep a record of every kind of action on your computer. The advantage of shell scripting is that it replaces pointing and clicking with a mouse, which is problematic because it leaves no trace, is difficult to reproduce or automate, and is inefficient. There are lots of options for learning and using Unix tools, for more details check out Karl Broman's [list of tools and editors](http://kbroman.github.io/Tools4RR/assets/lectures/02_unix_withnotes.pdf) for different platforms. 
 
-- **Computational environment** A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include [VirtualBox](https://www.virtualbox.org/) and [VMWare](http://www.vmware.com/). One challenge of working with VMs is that the files that contain the environment are not small, typically one gigbyte or more. On the other hand they are convinenet for cloud-based services such as 
+- **Computational environment** A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include [VirtualBox](https://www.virtualbox.org/) and [VMWare](http://www.vmware.com/). One challenge of working with VMs is that the files that contain the environment are not small, typically one gigbyte or more. On the other hand they are convenient for use with cloud-based services such as Amazon EC2. 
 
 ## How to get credit for reproducible research?
 
@@ -71,18 +71,18 @@ One of the challenges of doing reproducible research is that sharing code and da
 2. Release code components under the [MIT license](http://opensource.org/licenses/MIT) or similar.
 3. Released data under the [CC0 licence](https://creativecommons.org/publicdomain/zero/1.0/), that is, place data in the public domain. 
 
-There are several options for depositing these components of the research compendia online that give DOIs for convenient citing and discovery (eg. [figshare](http://figshare.com/) with github integration, [zenodo](https://zenodo.org/) also with github integration, and [researchcompendia.org](http://researchcompendia.org/).
+There are several options for depositing online these components of the research compendia that give [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)s for convenient citing and discovery (eg. [figshare](http://figshare.com/) with github integration, [zenodo](https://zenodo.org/) also with github integration, and [researchcompendia.org](http://researchcompendia.org/)).
 
 ## How to make reproducible research more normal?
 
-There are substantial costs of time and effort involved in become familiar with ways of making your research more reproducible. Until code and data sharing becomes normal and valued, it can be difficult for many to see the point of investing in reproducibility. There are many small informal things we can do to normalise reproducibility and increase recognition of these efforts. [Leveque et al. (2012)](http://www.stanford.edu/~vcs/papers/CiSE2012-LMS.pdf) recommend we: 
+There are substantial costs of time and effort involved in become familiar with ways of making your research more reproducible. Until code and data sharing becomes normal and valued, it can be difficult for many to see the point of investing in reproducibility. There are many small informal things we can do to normalise reproducibility and increase recognition of these efforts. For example, [Leveque et al. (2012)](http://www.stanford.edu/~vcs/papers/CiSE2012-LMS.pdf) recommend we: 
 
-> - Train students by putting homework, assignments & dissertations on the reproducible research spectrum
-> - Publish examples of reproducible research in our field
-> - Request code & data when reviewing
-> - Submit to & review for journals that support reproducible research
-> - Critically review & audit data management plans in grant proposals
-> - Consider reproducibility wherever possible in hiring, promotion & reference letters.
+> - **Train students** by putting homework, assignments & dissertations on the reproducible research spectrum
+> - **Publish examples** of reproducible research in our field
+> - **Request code & data** when reviewing
+> - **Submit to & review for journals** that support reproducible research
+> - **Critically review & audit** data management plans in grant proposals
+> - Consider reproducibility wherever possible in **hiring, promotion & reference letters**.
 
 Similarly, [Collberg et al. (2014)](http://reproducibility.cs.arizona.edu/tr.pdf) summarise the lessons they learned in attempting to reproduce 600 computer science projects: 
 
@@ -96,3 +96,9 @@ Similarly, [Collberg et al. (2014)](http://reproducibility.cs.arizona.edu/tr.pdf
 > - Keep your promises. If your grant application states that you will be sharing code with the community, plan for keeping that promise.
 > - Plan for longevity. Projects may live on for a long time, with many students building on the code. Plan for this at the onset of the project, by setting up the appropriate directory structures, plug-in architectures, etc., which will allow the project to grow.
 > - Avoid cool but unusual designs. Unless you have a compelling reason to do otherwise, stay with standard operating systems, programming languages, and tool chains.
+
+## Where to now?
+
+For the scientist new to this approach to reproducibility, the next steps are to simply dive in and find the tools and workflow that best suit you and are conventional in your domain. Incrementally bolting-on reproducibility to current projects is an excellent way to learn more, and then for future projects can be planned for built-in. Becoming involved in the community of researchers in your domain who are using tools for reproducibility can also ease the transition to new tools and workflows. 
+
+Do read through the other [sections of this site](http://ropensci.github.io/reproducibility-guide/) for more specific instructions, details and ideas on reproducible research using R. Also check out our curated list of [further readings](http://ropensci.github.io/reproducibility-guide/sections/references/) which includes links to numerous excellent guides on the practical details of improving reproducibility with R. 
