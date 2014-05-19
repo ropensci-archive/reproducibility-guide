@@ -5,14 +5,17 @@ date:   2014-03-30
 categories: 
 ---
 
-Developing a work flow that works for you can save you and your collaborators, days, weeks, or even months of time.  Most importantly, it keeps your project tightly glued together, making the project a single sharable unit.  This allows anyone to explore and reproduce scientific work with limited conflict. In the long term, it is an investment all researchers should be thinking about.  
-Although some work flows can seem incredibly complex, an important aspect to notice is modularity.  Start simple and gradually add to your work flow.  The modularity of work flows allows unprecedented flexibility and customization.  The whole goal is to effortlessly update any aspect of your research without it affecting and making any other aspect obsolete and dated.  This allows you to focus on the work rather than keeping track of the work.  With a fine tuned work flow, you can just add the data to the front end of your work flow and instantaneously it is analyzed and visualized in repeatable ways, outputting end products such as presentations, reports, notebooks, and manuscripts. 
+Developing a work flow that works for you can save you and your collaborators, days, weeks, or even months of time.  Most importantly, it keeps your project tightly glued together, making the project a single, sharable unit.  This allows anyone to explore and reproduce scientific work with limited conflict. In the long term, it is an investment all researchers should be thinking about.  
+
+Although some work flows can seem incredibly complex, an important aspect to notice is modularity.  Start simple and gradually add to your work flow.  The modularity of work flows allows unprecedented flexibility and customization.  The whole goal is to effortlessly update any aspect of your research without it making any other aspect obsolete.  This allows you to focus on the work rather than keeping track of the work.  
+
+With a fine tuned work flow, you can just add the data to the front end of your work flow and instantaneously it is analyzed and visualized in repeatable ways, outputting end products such as presentations, reports, notebooks, and manuscripts. 
 
 ##Choosing Your Work Flow
 
-You want to think about what the final output of your work will be.  The more outputs, the more complex the work flow.  Are you at a point in your project where all you need is documentation of analysis being performed in R?  Then maybe all you need to do is use R/RStudio and the R package knitr.  Are you going to analyze your data and while writing your manuscript and want to keep them in the same work flow for parallel updating, then you will need a bit more modules to your work flow. 
+You want to think about what the final output of your work will be.  The more outputs, the more complex the work flow.  Are you at a point in your project where all you need is documentation of analysis being performed in R?  Then maybe all you need to do is use R/RStudio and the R package knitr.  Are you going to analyze your data while writing your manuscript, and want to keep them in the same work flow for parallel updating? 
 
-Fortunately, most researchers require similar operations, so we can employ work flows that have been optimized by others. The overall goal to work is to work within a framework that encourages universal reproducibility, both for yourself and others interested in your work. 
+Fortunately, most researchers require similar operations, so we can employ work flows that have been optimized by others. The overall goal is to work within a framework that encourages universal reproducibility, both for yourself and others interested in your work. 
 
 <div class="row">
   <div class="col-sm-6 col-md-4">
