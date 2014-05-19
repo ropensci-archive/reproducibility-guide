@@ -24,13 +24,13 @@ Short way to generate reports and documentation in R by combining the power of p
 <img src="{{ site.baseurl }}/assets/img/workflow01.png" class="img-responsive" alt="...">
 <hr>
 
-While working in R, you can generate versatile R reports by installing the package rmarkdown ([documentation here](http://rmarkdown.rstudio.com/index.html)).  Current versions of R Studio include the package.  To install in general R installization use.
+While working in R, you can generate versatile R reports by installing the package rmarkdown ([documentation here](http://rmarkdown.rstudio.com/index.html)).  Current versions of R Studio include the package.  To install, use:
 
     install.packages("devtools")
     devtools::install_github("rstudio/rmarkdown") 
 
-To generate documents use the render command, specifiying file input and type of output. 
+To generate documents, use the render command, specifiying file input and type of output: 
 
     render("input.Rmd", "pdf_document")
 
-You get get further into the output customization by modification of [knitr](http://yihui.name/knitr/) and [pandoc](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html) specifications.
+You can further customize by modification of [knitr](http://yihui.name/knitr/) and [pandoc](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html) specifications.
