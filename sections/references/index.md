@@ -75,6 +75,8 @@ Stodden V  2010 The Scientific Method in Practice: Reproducibility in the Comput
 
 Stodden, V. 2009 The Legal Framework for Reproducible Scientific Research: Licensing and Copyright. Computing in Science &Engineering. 11, (2009), 35-40. [pdf](http://academiccommons.columbia.edu/download/fedora_content/download/ac:140154/CONTENT/04720221.pdf) [web](http://scitation.aip.org/content/aip/journal/cise/11/1/10.1109/MCSE.2009.19)
 
+Stodden, V and Miguez, S 2014. Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research. Journal of Open Research Software 2(1):e21, DOI: http://dx.doi.org/10.5334/jors.ay 
+
 Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the default to reproducible. computational science research. SIAM News, 46, 4-6. [pdf](http://www.davidhbailey.com/dhbpapers/icerm-report.pdf)
 
 Stodden V, Guo P, Ma Z (2013) Toward Reproducible Computational Research: An Empirical Analysis of Data and Code Policy Adoption by Journals. PLoS ONE 8(6): e67111. doi:10.1371/journal.pone.0067111 [link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0067111)
