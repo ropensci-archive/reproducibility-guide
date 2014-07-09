@@ -7,7 +7,7 @@ categories:
 
 # Introduction 
 
-Modern challenges of reproducibility in research, particularly computational reproducibility, have produced a lot of discussion in papers, blogs and videos, some of which are listed here: [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
+Modern challenges of reproducibility in research, particularly computational reproducibility, have produced a lot of discussion in papers, blogs and videos, some of which are listed: [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
 
 In this short introduction, we briefly summarise some of the principles, definitions and questions relevant to reproducible research that have emerged in the literature. We outline basic and widely applicable steps for promoting reproducibility. While our suggestions for tools and workflow are aimed primarily at the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. You are welcome to contribute to this guide (fix typos, add to the [reference list](https://github.com/ropensci/reproducibility-guide/blob/gh-pages/sections/references/index.md), etc.) by submitting a pull request to its [github repository](https://github.com/ropensci/reproducibility-guide). 
 
