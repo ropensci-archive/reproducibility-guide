@@ -13,6 +13,9 @@ categories:
 
 [Eduard Szöcs](http://edild.github.io/) - Eduard is a student currently enrolled in the Master’s Program ‘Ecotoxicology’ at the University Koblenz-Landau, Germany. <a href="https://github.com/EDiLD"><i class="fa fa-github fa-1.5x"></i>
 
+[Sam Zeitlin](http://codrspace.com/szeitlin/) 
+<a href="https://github/szeitlin"><i class="fa fa-github fa-1.5x"></i><a href="https://twitter.com/SamanthaZeitlin"><i class="fa fa-twitter fa-1.5x"></i></a>
+
 
 
  
