@@ -1,16 +1,10 @@
 ---
 layout: post
 title:  Guide to Writing Code
-date:    
+date:   2014-07-24
 categories: 
 ---
  
----
-layout: post
-title:  Code Writing Guidelines
-date:   2014-07-24 
-categories: 
----
 
 ###Description
 
