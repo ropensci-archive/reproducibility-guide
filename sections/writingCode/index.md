@@ -8,7 +8,7 @@ categories:
 
 ###Description
 
-Using tools like git for version control, knitr for dynamic figure generation, and so on are great steps forward towards better research transparency and reproducibility. 
+Using tools like git for version control and knitr for dynamic figure generation are great steps forward towards better research transparency and reproducibility. 
 
 But there are also steps to be made in improving code and preparing data for re-use. These steps don’t necessarily involve the use of new tools, but instead would be the result of applying “best practice” guidelines.
 
@@ -25,7 +25,7 @@ statistical software packages.
 
 [Gentzkow and Shapiro, “Code and Data for the Social Sciences: A Practitioner’s Guide” 2014](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf) 
 
-We’d recommend reading the full guide, but briefly outline the sections here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.
+We’d recommend reading the full guide, but briefly outline the sections of "RA Manual: Notes on Writing Code" here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.
 
 ---
 
