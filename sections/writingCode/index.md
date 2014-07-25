@@ -1,31 +1,29 @@
 ---
 layout: post
-title:  Guide to Writing Code
+title:  Guidelines to Writing Code
 date:   2014-07-24
 categories: 
 ---
- 
 
-###Description
+#Description
 
 Using tools like git for version control and knitr for dynamic figure generation are great steps forward towards better research transparency and reproducibility. 
 
-But there are also steps to be made in improving code and preparing data for re-use. These steps don’t necessarily involve the use of new tools, but instead would be the result of applying “best practice” guidelines.
+But there are also steps to be made in improving code and preparing data for re-use. These steps donÃ•t necessarily involve the use of new tools, but instead would be the result of applying "best practice" guidelines.
 
-We aim to begin compiling resources here. This is only a start, and we’d encourage anyone to suggest further guidelines, particularly those that are specific to various 
-statistical software packages.
+We aim to begin compiling resources here. This is only a start, and we'd encourage anyone to suggest further guidelines, particularly those that are specific to various statistical software packages.
 
 ---
 
-###Guidelines for writing code
+#Guidelines for writing code
 
 **Two very useful manuals**:
 
-[Gentzkow and Shapiro, “RA Manual: Notes on Writing Code.” 2012](http://faculty.chicagobooth.edu/matthew.gentzkow/research/ra_manual_coding.pdf)
+[Gentzkow and Shapiro, "RA Manual: Notes on Writing Code." 2012](http://faculty.chicagobooth.edu/matthew.gentzkow/research/ra_manual_coding.pdf)
 
-[Gentzkow and Shapiro, “Code and Data for the Social Sciences: A Practitioner’s Guide” 2014](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf) 
+[Gentzkow and Shapiro, "Code and Data for the Social Sciences: A Practitioner's Guide" 2014](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf) 
 
-We’d recommend reading the full guide, but briefly outline the sections of "RA Manual: Notes on Writing Code" here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.
+We'd recommend reading the full guide, but briefly outline the sections of "RA Manual: Notes on Writing Code" here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.
 
 ---
 
@@ -94,7 +92,7 @@ Users can use your code with different parameters and in different environments.
 
     myfunction <- function(x, y) {
       if (y == 0) 
-        return ‘y must be different than zero!’;
+        return 'y must be different than zero!';
       return x / y; 
     }
 
@@ -105,15 +103,7 @@ Of course you can also write tests to make sure your verifications are working c
 ###Code should be efficient
 
 * Profile slow code relentlessly
-* Store “too much” output from slow code
+* Store "too much" output from slow code
 * Separate slow code from fast code
 
 ---
-
-###Recommended Reading
-
-Brooks, Frederick P. 1995. The Mythical Man-Month. Addison-Wesley: New York. Hunt, Andrew and David Thomas. 2000.
-
-The Pragmatic Programmer: From Journeyman to Master. Addison-Wesley: New York. 
-
-Martin, Robert C. 2009. Clean Code: A Handbook of Agile Software Craftsmanship. Prentice Hall: New York.
