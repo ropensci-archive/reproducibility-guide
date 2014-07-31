@@ -9,7 +9,7 @@ categories:
 
 Using tools like git for version control and knitr for dynamic figure generation are great steps forward towards better research transparency and reproducibility. 
 
-But there are also steps to be made in improving code and preparing data for re-use. These steps donÕt necessarily involve the use of new tools, but instead would be the result of applying "best practice" guidelines.
+But there are also steps to be made in improving code and preparing data for re-use. These steps don't necessarily involve the use of new tools, but instead would be the result of applying "best practice" guidelines.
 
 We aim to begin compiling resources here. This is only a start, and we'd encourage anyone to suggest further guidelines, particularly those that are specific to various statistical software packages.
 
