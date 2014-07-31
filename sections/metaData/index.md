@@ -13,7 +13,7 @@ For clarity, project metadata can be divided into three main categories: softwar
 
 **Vital for Every Project**: Title, Authors, Description, Date, License 
 
-**Vital for Programs**:  Language Versions, Dependencies, Dependency Versions,Git Commit, [proper version number](), How to Install
+**Vital for Programs**:  Language Versions, Dependencies, Dependency Versions, Git Commit, [proper version number](http://semver.org/), How to Install
 
 **Vital for Larger Programs**: Tests, How to run Tests, Run Times Under Commonly Used Platforms, Sample Input and Output Data, Sample Run Usage
 
