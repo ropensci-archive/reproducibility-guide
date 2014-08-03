@@ -11,11 +11,8 @@ categories:
 
 [Ben Marwick](https://faculty.washington.edu/bmarwick/) - Ben is an assistant professor of archaeology at the University of Washington. <a href="https://github.com/benmarwick"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/benmarwick"><i class="fa fa-twitter fa-1.5x"></i></a>
 
-[Eduard Szöcs](http://edild.github.io/) - Eduard is a student currently enrolled in the Master’s Program ‘Ecotoxicology’ at the University Koblenz-Landau, Germany. <a href="https://github.com/EDiLD"><i class="fa fa-github fa-1.5x"></i>
+[Eduard Szöcs](http://edild.github.io/) - Eduard is a student currently enrolled in the Master’s Program ‘Ecotoxicology’ at the University Koblenz-Landau, Germany. <a href="https://github.com/EDiLD"><i class="fa fa-github fa-1.5x"></i></a>
 
-[Sam Zeitlin](http://codrspace.com/szeitlin/) 
-<a href="https://github/szeitlin"><i class="fa fa-github fa-1.5x"></i><a href="https://twitter.com/SamanthaZeitlin"><i class="fa fa-twitter fa-1.5x"></i></a>
+[Sam Zeitlin](http://codrspace.com/szeitlin/) <a href="https://github.com/szeitlin"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/SamanthaZeitlin"><i class="fa fa-twitter fa-1.5x"></i></a>
 
-
-
- 
+[Bruno P. Kinoshita](https://kinoshita.eti.br/) - Bruno is an independent consultant, and Open Source programmer. <a href="https://github.com/kinow"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/kinow"><i class="fa fa-twitter fa-1.5x"></i></a>
