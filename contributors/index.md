@@ -16,3 +16,5 @@ categories:
 [Sam Zeitlin](http://codrspace.com/szeitlin/) <a href="https://github.com/szeitlin"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/SamanthaZeitlin"><i class="fa fa-twitter fa-1.5x"></i></a>
 
 [Bruno P. Kinoshita](https://kinoshita.eti.br/) - Bruno is an independent consultant, and Open Source programmer. <a href="https://github.com/kinow"><i class="fa fa-github fa-1.5x"></i></a><a href="https://twitter.com/kinow"><i class="fa fa-twitter fa-1.5x"></i></a>
+
+[Stephanie Wykstra](http://twitter.com/swykstr)- Stephanie is a research consultant working on research transparency and data-sharing in the social sciences.<a href="http://twitter.com/swykstr"><i class="fa fa-twitter fa-1.5x"></i></a>
