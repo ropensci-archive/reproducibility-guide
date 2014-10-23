@@ -79,46 +79,121 @@
 
                 <h1>Introduction</h1>
 
-<p>Reproducibility is an increasingly important topic in discussions of doing good science. As science becomes more complex, particularly due to the increased role of computational methods, it is less likely that the descriptions contained in scholarly publications are sufficient for others to obtain substantially similar results on their own or extend the published method to new data or new applications. Here, we discuss some of the principles, definitions and complexities of reproducible research and outline some basic steps for promoting reproducibility. While our specific tool and workflow suggestions focus on the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. </p>
+<p>Modern challenges of reproducibility in research, particularly computational reproducibility, have produced a lot of discussion in papers, blogs and videos, some of which are listed: <a href="http://ropensci.github.io/reproducibility-guide/sections/references/">here</a>. </p>
+
+<p>In this short introduction, we briefly summarise some of the principles, definitions and questions relevant to reproducible research that have emerged in the literature. We outline basic and widely applicable steps for promoting reproducibility. While our suggestions for tools and workflow are aimed primarily at the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. You are welcome to contribute to this guide (fix typos, add to the <a href="https://github.com/ropensci/reproducibility-guide/blob/gh-pages/sections/references/index.md">reference list</a>, etc.) by submitting a pull request to its <a href="https://github.com/ropensci/reproducibility-guide">github repository</a>. </p>
+
+<p>If you&#39;re not familiar with R, have a look at <a href="http://rforcats.net/">rforcats.net</a> for a gentle introduction, and if you&#39;re already working with R then have a look at Hadley&#39;s <a href="http://adv-r.had.co.nz/">Advanced R programming book</a> for a guide to best practices. </p>
+
+<h1>Why do Reproducible Research?</h1>
+
+<p>There are two basic reasons to be concerned about making your research reproducible. The first is <strong>to show evidence of the correctness of your results</strong>. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article. </p>
+
+<p>Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).</p>
+
+<p>The second reason to aspire to reproducibility is <strong>to enable others to make use of our methods and results</strong>. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data to allow our colleagues to extend our approach to new applications with a minimum of effort. This has potential to save a great time of time in transmitting knowledge to future researchers. </p>
 
 <h1>Principles of Reproducible Research</h1>
 
-<p>The motivating principle for reproducible research is that the traditional unit of scholarly communication - a published article - is only the tip of the iceberg of the research process. Jon Claerbout, one of the pioneers of reproducible research, described the article as merely an advertisement for research (Claerbout and Karrenbach 1992): </p>
+<p>The motivating principle for reproducible research is that the traditional unit of scholarly communication - a published article - is only the tip of the iceberg of the research process. Jon Claerbout described the article as merely an advertisement for research <a href="http://sepwww.stanford.edu/doku.php?id=sep:research:reproducible:seg92">(Claerbout and Karrenbach 1992)</a>: </p>
 
 <blockquote>
-<p>An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result. </p>
+<p>An article about computational results is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result. </p>
 </blockquote>
 
 <p>In most cases, when we have only an article, we are unable to engage with the bulk of the details and decisions that lead to the figures, tables and narrative presented in the article. </p>
 
-<p>In practising reproducible research we aim to expose more of the research workflow to our audience. This makes it easier for them to make a more informed assessment of the reliability of the methods and results, and to make it easier for them to adapt our methods to their own research. </p>
+<p>The aim of practising reproducible computational research is to expose more of the research workflow to our audience. This makes it easier for them to make a more informed assessment of our methods and results, and makes it easier for them to adapt our methods to their own research. </p>
 
 <h1>Taxonomies of reproducibility</h1>
 
-<p>Enabling reproducibility can be complicated, but by separating out some of the levels and degrees of reproducibility the problem can become more manageable because we can focus our efforts on what best suits our specific scientific domain. Victoria Stodden (2014), a prominent scholar on this topic, has identified some useful distinctions in reproducible research:</p>
+<p>Enabling reproducibility can be complicated, but by separating out some of the levels and degrees of reproducibility the problem can become more manageable because we can focus our efforts on what best suits our specific scientific domain. Victoria Stodden <a href="http://edge.org/response-detail/25340">(2014)</a>, a prominent scholar on this topic, has identified some useful distinctions in reproducible research:</p>
 
 <ul>
-<li><p>Computational reproducibility: when detailed information is provided about code, data, software, hardware and implementation details.</p></li>
-<li><p>Empirical reproducibility: when detailed information is provided about non-computational empirical scientific experiments and observations</p></li>
-<li><p>Statistical reproducibility: when detailed information is provided about the choice of statistical tests, model parameters, threshold values, etc. </p></li>
+<li><p><em>Computational reproducibility</em>: when detailed information is provided about code, software, hardware and implementation details.</p></li>
+<li><p><em>Empirical reproducibility</em>: when detailed information is provided about non-computational empirical scientific experiments and observations. In practise this is enabled by making data freely available, as well as details of how the data was collected.</p></li>
+<li><p><em>Statistical reproducibility</em>: when detailed information is provided about the choice of statistical tests, model parameters, threshold values, etc. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations. </p></li>
 </ul>
 
-<p>Computational reproducibility has attracted a lot of recent attention from a wide variety of disciplines, and we focus on that here. The other two types of reproducibility are very domain specific and it is more challenging to offer general principles and tools that will be useful to everyone.  </p>
+<h1>Our current focus is on developing guidelines for computational reproducibility.</h1>
 
-<p>Definitions of Reproducible Research</p>
+<p><a href="http://stodden.net/icerm_report.pdf">Stodden et al. (2013)</a> place computational reproducibility on a spectrum with five categories that account for many typical research contexts:</p>
 
-<p>Leveque et al setting the default</p>
+<blockquote>
+<ul>
+<li><em>Reviewable Research</em>. The descriptions of the research methods can be independently assessed and the results judged credible. (This includes both traditional peer review and community review, and does not necessarily imply reproducibility.)</li>
+<li><em>Replicable Research</em>. Tools are made available that would allow one to duplicate the results of the research, for example by running the authors’ code to produce the plots shown in the publication. (Here tools might be limited in scope, e.g., only essential data or executables, and might only be made available to referees or only upon request.)</li>
+<li><em>Confirmable Research</em>. The main conclusions of the research can be attained independently without the use of software provided by the author. (But using the complete description of algorithms and methodology provided in the publication and any supplementary materials.)</li>
+<li><em>Auditable Research</em>. Sufficient records (including data and software) have been archived so that the research can be defended later if necessary or differences between independent confirmations resolved. The archive might be private, as with traditional laboratory notebooks.</li>
+<li><em>Open or Reproducible Research</em>. Auditable research made openly available. This comprised well-documented and fully open code and data that are publicly available that would allow one to (a) fully audit the computational procedure, (b) replicate and also independently reproduce the results of the research, and (c) extend the results or apply the method to new problems.</li>
+</ul>
+</blockquote>
 
-<p>Complexities and challenges of Reproducible Research</p>
+<p>This kind of spectrum is valuable because it easy for us to understand how our current practices can be defined. It helps to pinpoint limitations that we face (for example many researchers are unable to publicly release sensitive data)  and identify basic changes we can make to improve reproducibility. </p>
 
-<p>RRS</p>
+<h2>How can software tools can make your research more reproducible?</h2>
 
-<p>Basic steps for promoting Reproducible Research </p>
+<p>For many domains of science there are already several options for software tools to help overcome the technical challenges of doing reproducible research. These tools enable researchers to capture and communicate the details of their workflow with much greater efficiency that simply writing a lengthy prose narrative. There are three general types of software tools (cf. <a href="http://stodden.net/icerm_report.pdf">Stodden et al 2013</a>). For more specific details on the tools named here, see our <a href="http://ropensci.github.io/reproducibility-guide/sections/tools/">tools page</a>:</p>
 
 <ul>
-<li><p>literate programming</p></li>
-<li><p>teaching, reviewing</p></li>
+<li><p><strong>Literate computing, authoring, and publishing</strong>. These tools enable writing and publishing self-contained documents that include narrative and code used to generate both text and graphical results. In the R ecosystem, <a href="http://yihui.name/knitr/">knitr</a> and its ancestor <a href="http://www.stat.uni-muenchen.de/%7Eleisch/Sweave/">Sweave</a> used with <a href="https://www.rstudio.com/">RStudio</a> are the main tools for literate computing. <a href="http://daringfireball.net/projects/markdown/">Markdown</a> or <a href="http://www.latex-project.org/">LaTeX</a> are used for writing the narrative, with chunks of R code sprinkled throughout the narrative. <a href="http://ipython.org/">IPython</a> is a popular related system for the Python language, providing an interactive notebook for browser-based literate computing. </p></li>
+<li><p><strong>Version control</strong>. These tools enable you to keep a record of file changes over time, so specific versions can be recalled later. During exploratory data analysis you might pursue several paths that lead nowhere, with version control you can efficiently revert to an earlier point in the analysis without starting from scratch. There are several systems that are widely used, and amongst R users the <a href="http://git-scm.com/">git</a> version control system is especially popular. Version control tools combined with web services such as <a href="https://github.com/">Github</a> and <a href="https://bitbucket.org/">BitBucket</a> also enable you to work with collaborators with a minimum of confusion and friction. </p></li>
+<li><p><strong>Tracking provenance</strong>. Provenance refers to the tracking of chronology and origin of research objects, such as data, source code, figures, and results. Programs that track provenance enable you to capture a complex workflow that relies on many different tools. Tools that record provenance of computations include <a href="http://www.vistrails.org/">VisTrails</a>, <a href="https://kepler-project.org/">Kepler</a>, <a href="http://www.taverna.org.uk/">Taverna</a>, and several others. Many of these can include R as part of a sequence of tools. If your workflow uses many different programs, these provenance trackers will be useful for efficiently documenting the order of processes and parameters to show others your analytical process.  </p></li>
+<li><p><strong>Automation</strong> Several Unix tools are useful for streamlined automation and documentation of the research process, e.g. editing files, moving input and output between different parts of your workflow, and compiling documents for publication. Scripts for <a href="http://www.gnu.org/software/bash/">shell programs</a> and <a href="http://www.gnu.org/software/make/">make</a> files enable highly efficient and easily repeatable control of your computer. These scripts can also be used to keep a record of every kind of action on your computer. There are lots of options for learning and using Unix tools, for more details check out Karl Broman&#39;s <a href="http://kbroman.github.io/Tools4RR/assets/lectures/02_unix_withnotes.pdf">list of tools and editors</a> for different platforms. </p></li>
+<li><p><strong>Capturing the computational environment</strong> A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include <a href="https://www.virtualbox.org/">VirtualBox</a> and <a href="http://www.vmware.com/">VMWare</a>. One challenge of working with VMs is that the files that contain the environment are not small, typically one gigbyte or more, which can be awkward to share. On the other hand, they are convenient for use with cloud-based services such as Amazon EC2. </p></li>
 </ul>
+
+<h2>Let&#39;s give credit to researchers for writing code</h2>
+
+<p>One of the challenges going forward is how to share code and data. In many disciplines, researchers have concerns about copyright, being scooped, and getting recognition for the effort invested in writing code and collecting data. These concerns hinder people from sharing details of their research and impede reproducibility. In response to these concerns, <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1362040">Stodden (2009)</a> has proposed the <strong>Reproducible Research Standard</strong> to encourage researchers to release their products with standardised instructions for reuse and attribution. In brief, this standard recommends that researchers: </p>
+
+<ol>
+<li>Release media components (text and figures, such as markdown, LaTeX, PDF and other documents) under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution (CC-BY) licence</a>.</li>
+<li>Release code components under the <a href="http://opensource.org/licenses/MIT">MIT license</a> or similar.</li>
+<li>Release data under the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 licence</a>, that is, place data in the public domain. </li>
+</ol>
+
+<p>There are several options for depositing these components of the research compendia online that give <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">DOI</a>s for convenient citing and discovery (eg. <a href="http://figshare.com/">figshare</a> with github integration, <a href="https://zenodo.org/">zenodo</a> also with github integration, and <a href="http://researchcompendia.org/">researchcompendia.org</a>).</p>
+
+<p>These recommendations will not be suitable for every occasion. For example, research that uses human subjects data obviously cannot make that data publicly available with substantial changes to protect identities. In these situations, some modifications will be required to maximize reproducibility while honoring obligations to stakeholders. In some cases, a solution might be releasing a sample of &quot;dummy&quot; data that contains similar qualities to the real data set. While this would not be fully &#39;reproducible research&#39; as defined above, it would still be very useful to other researchers who could use a validated sample to inspect, evaluate and extend the research.   </p>
+
+<h2>Let&#39;s make all research more reproducible</h2>
+
+<p>There are substantial costs of time and effort involved in become familiar with ways of making your research more reproducible. Until code and data sharing becomes common practice, it can be difficult for many researchers to see the point of adopting these procedures. There are many small informal things we can do to promote reproducibility and increase recognition of these efforts. Along these lines, <a href="http://www.stanford.edu/%7Evcs/papers/CiSE2012-LMS.pdf">Leveque et al. (2012)</a> recommend we: </p>
+
+<blockquote>
+<ul>
+<li><strong>Train students</strong> by putting homework, assignments &amp; dissertations on the reproducible research spectrum</li>
+<li><strong>Publish examples</strong> of reproducible research in our field</li>
+<li><strong>Request code &amp; data</strong> when reviewing</li>
+<li><strong>Submit to &amp; review for journals</strong> that support reproducible research</li>
+<li><strong>Critically review &amp; audit</strong> data management plans in grant proposals</li>
+<li>Consider reproducibility wherever possible in <strong>hiring, promotion &amp; reference letters</strong>.</li>
+</ul>
+</blockquote>
+
+<p>Similarly, <a href="http://reproducibility.cs.arizona.edu/tr.pdf">Collberg et al. (2014)</a> summarise the lessons they learned in attempting to reproduce 600 computer science projects: </p>
+
+<blockquote>
+<ul>
+<li>Unless you have compelling reasons not to, plan to release the code. It is the right thing to do, and if you start with this mind-set from the beginning of the project, the amount of extra work will likely be negligible.</li>
+<li>Students will leave, plan for it. When building the system keep in mind that the code should outlive both you and the student.</li>
+<li>Create permanent email addresses. You and your students will most likely be changing jobs a few times during your career. While some schools will keep old email addresses around, or forward email, you cannot count on it. Create email addresses that you know will be permanent throughout your working life and use them in all professional correspondence.</li>
+<li>Create project websites. These are more likely to remain functional over time than email addresses. Put the URL in the paper. Be prepared to upload code and test data to your web sites at the same time as you upload the paper describing your system to a conference site for review.</li>
+<li>Use a source code control system. Whenever you submit or publish a paper, set a label on the corresponding code version so that you can easily recreate it.</li>
+<li>Backup your code.</li>
+<li>Resolve licensing issues. If you anticipate problems start the licensing process early, so that you are able to release the code at the same time as the paper is submitted for publication.</li>
+<li>Keep your promises. If your grant application states that you will be sharing code with the community, plan for keeping that promise.</li>
+<li>Plan for longevity. Projects may live on for a long time, with many students building on the code. Plan for this at the onset of the project, by setting up the appropriate directory structures, plug-in architectures, etc., which will allow the project to grow.</li>
+<li>Avoid cool but unusual designs. Unless you have a compelling reason to do otherwise, stay with standard operating systems, programming languages, and tool chains.</li>
+</ul>
+</blockquote>
+
+<h2>What&#39;s next?</h2>
+
+<p>If this is all news to you, the next steps are to simply dive in and find the tools and workflow that best suit your research domain. Incrementally adding reproducibility to current projects is an excellent way to learn more, and then future projects can be planned for built-in reproducibility from the start. Becoming involved in the community of researchers in your domain who are using tools for reproducibility can also ease the transition to new tools and workflows. </p>
+
+<p>Read through the other <a href="http://ropensci.github.io/reproducibility-guide/">sections of this site</a> for more specific instructions, details and ideas on reproducible research using R. Also check out our curated list of <a href="http://ropensci.github.io/reproducibility-guide/sections/references/">further readings</a> which includes links to numerous excellent guides on the practical details of improving reproducibility with R. </p>
 
                     
                 </br>

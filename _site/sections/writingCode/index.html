@@ -59,7 +59,7 @@
                 <div class="row">
             
                    
-                <h1><b> Guide to Writing Code </b></h1>
+                <h1><b> Guidelines to Writing Code </b></h1>
                 </br>
                 </br>
                 
@@ -77,7 +77,112 @@
                 </br>
                 </br>
 
-                
+                <h1>Description</h1>
+
+<p>Using tools like git for version control and knitr for dynamic figure generation are great steps forward towards better research transparency and reproducibility. </p>
+
+<p>But there are also steps to be made in improving code and preparing data for re-use. These steps donÕt necessarily involve the use of new tools, but instead would be the result of applying &quot;best practice&quot; guidelines.</p>
+
+<p>We aim to begin compiling resources here. This is only a start, and we&#39;d encourage anyone to suggest further guidelines, particularly those that are specific to various statistical software packages.</p>
+
+<hr>
+
+<h1>Guidelines for writing code</h1>
+
+<p><strong>Two very useful manuals</strong>:</p>
+
+<p><a href="http://faculty.chicagobooth.edu/matthew.gentzkow/research/ra_manual_coding.pdf">Gentzkow and Shapiro, &quot;RA Manual: Notes on Writing Code.&quot; 2012</a></p>
+
+<p><a href="http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf">Gentzkow and Shapiro, &quot;Code and Data for the Social Sciences: A Practitioner&#39;s Guide&quot; 2014</a> </p>
+
+<p>We&#39;d recommend reading the full guide, but briefly outline the sections of &quot;RA Manual: Notes on Writing Code&quot; here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.</p>
+
+<hr>
+
+<h3>Code should be logical</h3>
+
+<ul>
+<li>Despise redundancy</li>
+<li>Separate functional code and metadata</li>
+<li>Use the right data structures</li>
+<li>Make your functions shy</li>
+<li>Use overriding methods instead of switches where appropriate</li>
+</ul>
+
+<p><em>Example: use the right data structures</em></p>
+
+<p>Instead of writing a function like:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">myfunction &lt;- function(name, surname, age, height) {
+  if (age &lt; 18) {}
+}
+</code></pre></div>
+<p>We can use a structure like an object or array for that.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">myfunction &lt;- function(person) {
+  if (person.age &lt; 18) { }
+}
+</code></pre></div>
+<p>This would make the code easier to read and maintain.</p>
+
+<hr>
+
+<h3>Code should be readable</h3>
+
+<ul>
+<li>Keep it short</li>
+<li>Order your functions for linear reading</li>
+<li>Choose descriptive names</li>
+<li>Use white space and indents to make code scannable</li>
+<li>Pay special attention to coding algebra</li>
+<li>Make logical switches intuitive</li>
+<li>Use enough comments and no more</li>
+<li>Be consistent</li>
+<li>Avoid commands that make code hard to read</li>
+</ul>
+
+<p><em>Example: choose descriptive names</em></p>
+
+<p>It might be easier for other users to read and adapt existing code if the variables, folders, classes and other elements have simple and intuitive names. So prefer writing code like:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">calculate_status &lt;- function(person) {}
+</code></pre></div>
+<p>Rather than:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">cs &lt;- function(p) {}
+</code></pre></div>
+<hr>
+
+<h3>Code should be robust</h3>
+
+<ul>
+<li>Check for errors</li>
+<li>Write tests</li>
+</ul>
+
+<p><em>Example: check for errors</em></p>
+
+<p>Users can use your code with different parameters and in different environments. It is a good practice to include code that check for erroneous values and provide clear feedback.</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">myfunction &lt;- function(x, y) {
+  return x / y;
+}
+
+myfunction &lt;- function(x, y) {
+  if (y == 0) 
+    return &#39;y must be different than zero!&#39;;
+  return x / y; 
+}
+</code></pre></div>
+<p>Of course you can also write tests to make sure your verifications are working correctly ;-)</p>
+
+<hr>
+
+<h3>Code should be efficient</h3>
+
+<ul>
+<li>Profile slow code relentlessly</li>
+<li>Store &quot;too much&quot; output from slow code</li>
+<li>Separate slow code from fast code</li>
+</ul>
+
+<hr>
+
                     
                 </br>
                 </br>
