@@ -7,13 +7,13 @@ categories:
 
 # Introduction 
 
-Modern challenges of reproducibility in research, particularly computational reproducibility, have produced a lot of discussion in papers, blogs and videos, some of which are listed: [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
+Modern challenges of reproducibility in research, particularly computational reproducibility, have produced a lot of discussion in papers, blogs and videos, some of which are listed [here](http://ropensci.github.io/reproducibility-guide/sections/references/). 
 
 In this short introduction, we briefly summarise some of the principles, definitions and questions relevant to reproducible research that have emerged in the literature. We outline basic and widely applicable steps for promoting reproducibility. While our suggestions for tools and workflow are aimed primarily at the computational environment of the R programming language, the principles and definitions sketched out here are applicable to researchers working in any environment. You are welcome to contribute to this guide (fix typos, add to the [reference list](https://github.com/ropensci/reproducibility-guide/blob/gh-pages/sections/references/index.md), etc.) by submitting a pull request to its [github repository](https://github.com/ropensci/reproducibility-guide). 
 
 If you're not familiar with R, have a look at [rforcats.net] (http://rforcats.net/) for a gentle introduction, and if you're already working with R then have a look at Hadley's [Advanced R programming book](http://adv-r.had.co.nz/) for a guide to best practices. 
 
-# Why do Reproducible Research? 
+# Why do reproducible research? 
 
 There are two basic reasons to be concerned about making your research reproducible. The first is **to show evidence of the correctness of your results**. Descriptions contained in scholarly publications are rarely sufficient to convince sceptical readers of the reliability of our work. In simpler times, scholarly publications showed the reader most of the work involved in getting the result. The reader could make an informed choice about the credibility of the science. Now, the reader may feel they are being asked to blindly trust in all the details that were not described in the original journal article. 
 
@@ -21,7 +21,7 @@ Adopting a reproducible workflow means providing our audience with the code and 
 
 The second reason to aspire to reproducibility is **to enable others to make use of our methods and results**. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data to allow our colleagues to extend our approach to new applications with a minimum of effort. This has potential to save a great time of time in transmitting knowledge to future researchers. 
 
-# Principles of Reproducible Research
+# What are the principles of reproducible research?
 
 The motivating principle for reproducible research is that the traditional unit of scholarly communication - a published article - is only the tip of the iceberg of the research process. Jon Claerbout described the article as merely an advertisement for research [(Claerbout and Karrenbach 1992)](http://sepwww.stanford.edu/doku.php?id=sep:research:reproducible:seg92): 
 
@@ -31,7 +31,7 @@ In most cases, when we have only an article, we are unable to engage with the bu
 
 The aim of practising reproducible computational research is to expose more of the research workflow to our audience. This makes it easier for them to make a more informed assessment of our methods and results, and makes it easier for them to adapt our methods to their own research. 
 
-# Taxonomies of reproducibility
+# What are the different kinds of reproducibile research?
 
 Enabling reproducibility can be complicated, but by separating out some of the levels and degrees of reproducibility the problem can become more manageable because we can focus our efforts on what best suits our specific scientific domain. Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent scholar on this topic, has identified some useful distinctions in reproducible research:
 
@@ -41,9 +41,7 @@ Enabling reproducibility can be complicated, but by separating out some of the l
 
 - _Statistical reproducibility_: when detailed information is provided about the choice of statistical tests, model parameters, threshold values, etc. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations. 
 
-#Our current focus is on developing guidelines for computational reproducibility.    
-
-[Stodden et al. (2013)](http://stodden.net/icerm_report.pdf) place computational reproducibility on a spectrum with five categories that account for many typical research contexts:
+[Stodden et al. (2013)](http://stodden.net/icerm_report.pdf) place **computational reproducibility** on a spectrum with five categories that account for many typical research contexts:
 
 > - _Reviewable Research_. The descriptions of the research methods can be independently assessed and the results judged credible. (This includes both traditional peer review and community review, and does not necessarily imply reproducibility.)
 > - _Replicable Research_. Tools are made available that would allow one to duplicate the results of the research, for example by running the authors’ code to produce the plots shown in the publication. (Here tools might be limited in scope, e.g., only essential data or executables, and might only be made available to referees or only upon request.)
@@ -53,7 +51,7 @@ Enabling reproducibility can be complicated, but by separating out some of the l
 
 This kind of spectrum is valuable because it easy for us to understand how our current practices can be defined. It helps to pinpoint limitations that we face (for example many researchers are unable to publicly release sensitive data)  and identify basic changes we can make to improve reproducibility. 
 
-## How can software tools can make your research more reproducible? 
+## How can software tools can make our research more reproducible? 
 
 For many domains of science there are already several options for software tools to help overcome the technical challenges of doing reproducible research. These tools enable researchers to capture and communicate the details of their workflow with much greater efficiency that simply writing a lengthy prose narrative. There are three general types of software tools (cf. [Stodden et al 2013](http://stodden.net/icerm_report.pdf)). For more specific details on the tools named here, see our [tools page](http://ropensci.github.io/reproducibility-guide/sections/tools/):
 
@@ -67,7 +65,7 @@ For many domains of science there are already several options for software tools
 
 - **Capturing the computational environment** A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include [VirtualBox](https://www.virtualbox.org/) and [VMWare](http://www.vmware.com/). One challenge of working with VMs is that the files that contain the environment are not small, typically one gigbyte or more, which can be awkward to share. On the other hand, they are convenient for use with cloud-based services such as Amazon EC2. 
 
-## Let's give credit to researchers for writing code
+## How to give and receive credit for reproducible research?
 
 One of the challenges going forward is how to share code and data. In many disciplines, researchers have concerns about copyright, being scooped, and getting recognition for the effort invested in writing code and collecting data. These concerns hinder people from sharing details of their research and impede reproducibility. In response to these concerns, [Stodden (2009)](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1362040) has proposed the **Reproducible Research Standard** to encourage researchers to release their products with standardised instructions for reuse and attribution. In brief, this standard recommends that researchers: 
 
@@ -79,7 +77,7 @@ There are several options for depositing these components of the research compen
 
 These recommendations will not be suitable for every occasion. For example, research that uses human subjects data obviously cannot make that data publicly available with substantial changes to protect identities. In these situations, some modifications will be required to maximize reproducibility while honoring obligations to stakeholders. In some cases, a solution might be releasing a sample of "dummy" data that contains similar qualities to the real data set. While this would not be fully 'reproducible research' as defined above, it would still be very useful to other researchers who could use a validated sample to inspect, evaluate and extend the research.   
 
-## Let's make all research more reproducible
+## How can we make reproducible research the norm?
 
 There are substantial costs of time and effort involved in become familiar with ways of making your research more reproducible. Until code and data sharing becomes common practice, it can be difficult for many researchers to see the point of adopting these procedures. There are many small informal things we can do to promote reproducibility and increase recognition of these efforts. Along these lines, [Leveque et al. (2012)](http://www.stanford.edu/~vcs/papers/CiSE2012-LMS.pdf) recommend we: 
 
