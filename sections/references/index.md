@@ -14,6 +14,9 @@ Birney, E. et al. Prepublication data sharing. Nature. 461, (2009), 168-170.](ht
 
 Buckheit, J.B. and Donoho, D.L. Wavelab and reproducible research. (1995). [pdf](http://www-stat.stanford.edu/~wavelab/Wavelab_850/wavelab.pdf)
 
+Bray, A., Çetinkaya-Rundel, M., & Stangl, D. (2014). Taking a Chance in the Classroom: Five Concrete Reasons Your Students Should Be Learning to Analyze Data in the Reproducible Paradigm. CHANCE, 27(3), 53–56. doi:10.1080/09332480.2014.965635
+[web](http://chance.amstat.org/2014/09/reproducible-paradigm/)
+
 Drummond, C. Reproducible Research: a Dissenting Opinion. (2012), 1-10. [pdf](http://cogprints.org/8675/1/ReproducibleResearch.pdf)
 
 Freire, J. et al. Computational reproducibility: state-of-the-art, challenges, and database research opportunities. SIGMOD2012 (2012), 593-596. [pdf](http://bigdata.poly.edu/~juliana/pub/freire-sigmod2012.pdf)
