@@ -96,14 +96,14 @@ Input files: .Rmd, data (.csv, .txt)</p>
 <p><img src="/assets/img/workflow01.png" class="img-responsive" alt="...">
 <hr></p>
 
-<p>While working in R, you can generate versatile R reports by installing the package rmarkdown (<a href="http://rmarkdown.rstudio.com/index.html">documentation here</a>).  Current versions of R Studio include the package.  To install in general R installization use.</p>
+<p>While working in R, you can generate versatile R reports by installing the package rmarkdown (<a href="http://rmarkdown.rstudio.com/index.html">documentation here</a>).  Current versions of R Studio include the package.  To install, use:</p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">install.packages(&quot;devtools&quot;)
 devtools::install_github(&quot;rstudio/rmarkdown&quot;) 
 </code></pre></div>
-<p>To generate documents use the render command, specifiying file input and type of output. </p>
+<p>To generate documents, use the render command, specifiying file input and type of output: </p>
 <div class="highlight"><pre><code class="text language-text" data-lang="text">render(&quot;input.Rmd&quot;, &quot;pdf_document&quot;)
 </code></pre></div>
-<p>You get get further into the output customization by modification of <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">pandoc</a> specifications.</p>
+<p>You can further customize by modification of <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">pandoc</a> specifications.</p>
 
                     
                 </br>
