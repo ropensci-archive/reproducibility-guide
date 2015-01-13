@@ -19,9 +19,10 @@ categories:
 
 [Stephanie Wykstra](http://twitter.com/swykstr)- Stephanie is a research consultant working on research transparency and data-sharing in the social sciences.<a href="http://twitter.com/swykstr"><i class="fa fa-twitter fa-1.5x"></i></a>
 
-[Jeff Leek](http://jtleek.com/) - 
-<a href="https://github.com/jtleek"><i class="fa fa-github fa-1.5x"></i><a href="https://twitter.com/jtleek"><i class="fa fa-twitter fa-1.5x"></i></a>
+[Jeff Leek](http://jtleek.com/) - Jeff is an Assistant Professor of Biostatistics at the Johns Hopkins Bloomberg School of Public Health and co-editor of the Simply Statistics Blog. <a href="https://github.com/jtleek"><i class="fa fa-github fa-1.5x"></i><a href="https://twitter.com/jtleek"><i class="fa fa-twitter fa-1.5x"></i></a>
 
 [Nick Reich](http://people.umass.edu/nick/) - 
 <a href="https://twitter.com/reichlab"><i class="fa fa-twitter fa-1.5x"></i></a>
+
+[Billy Meinke](https://billymeinke.wordpress.com/) - Billy is part of the education team at Creative Commons. <a href="https://twitter.com/billymeinke"><i class="fa fa-twitter fa-1.5x"></i></a>
 
