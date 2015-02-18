@@ -13,6 +13,8 @@ There are many options for data storing depending on duration, data type, and st
 - [dataONE](http://www.dataone.org/) Focus on environmental science, community run.
 - [Data Dyrad](http://datadryad.org/) Dyrad is non-profit data repository. Submission of data requires the payment of a fee, but an increasing number of journals are contracted with Dyrad to cover this fee.
 - [figshare](http://figshare.com/?gclid=CIzqiIXiu70CFeJF7AodQU8A_w) A digital repository for scientific products such as data, figures, images, movies, and other content that accompanies how research is communicated. 
+- [zenodo](http://zenodo.org/) A digital repository for the long-tail of science, enabling researchers to share and preserve any research outputs in any size, any format and from any science. 
+- [re3data](http://www.re3data.org/) A global registry of research data repositories from different academic disciplines that helps researchers identify an appropriate data repository to store their data.
 
 ### Data Package Manager
 
