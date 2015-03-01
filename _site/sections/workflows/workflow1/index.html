@@ -74,9 +74,6 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="row">
             
-                </br>
-                </br>
-
                 <h3>Components</h3>
 
 <p>Programs: R Studio
@@ -97,13 +94,22 @@ Input files: .Rmd, data (.csv, .txt)</p>
 <hr></p>
 
 <p>While working in R, you can generate versatile R reports by installing the package rmarkdown (<a href="http://rmarkdown.rstudio.com/index.html">documentation here</a>).  Current versions of R Studio include the package.  To install, use:</p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">install.packages(&quot;devtools&quot;)
+<div class="highlight"><pre><code class="language-text" data-lang="text">install.packages(&quot;devtools&quot;)
 devtools::install_github(&quot;rstudio/rmarkdown&quot;) 
 </code></pre></div>
-<p>To generate documents, use the render command, specifiying file input and type of output: </p>
-<div class="highlight"><pre><code class="text language-text" data-lang="text">render(&quot;input.Rmd&quot;, &quot;pdf_document&quot;)
+<p>To generate documents, use the render command, specifying file input and type of output: </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">render(&quot;input.Rmd&quot;, &quot;pdf_document&quot;)
 </code></pre></div>
-<p>You can further customize by modification of <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">pandoc</a> specifications.</p>
+<p>You can further customize by modification of <a href="http://yihui.name/knitr/">knitr</a> and <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">pandoc</a> specifications. RStudio provides a user-friendly interface to the render command through its knit button (Ctrl/Cmd + Shift + K) which will render the output using the metadata specified in the pandoc YAML header.</p>
+
+<p>Greater control over the knit process can be achieved by providing a custom knit function to RStudio, to be executed upon clicking this button. For example, a different file name can be specified as:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">rmarkdown::render(inputFile, encoding = encoding,
+                  output_file = paste0(dirname(inputFile),&#39;/article.pdf&#39;))
+</code></pre></div>
+<p>Multiple subsections can also be built into a single output from within RStudio for more elaborate reproducible documents by replacing the default <code>render</code> function with multiple commands to control the conversion of disparate files to be included within a single document. E.g. to convert multiple Rmarkdown files and then append them and convert the output to pdf:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">knit: (function(inputFile, encoding) { for (section in list.files(pattern=&quot;paper-part-.*?.Rmd&quot;)) { rmarkdown::render(section, encoding = &quot;UTF-8&quot;, quiet=TRUE) }; rmarkdown::render(inputFile, encoding = encoding, output_file = paste0(dirname(inputFile),&#39;/README.md&#39;)) })
+</code></pre></div>
+<p>For notes on using Rmarkdown see <a href="http://kbroman.org/Tools4RR/assets/lectures/03_knitr_Rmd_withnotes.pdf">lecture 3</a> from Karl Broman&#39;s <a href="http://kbroman.org/Tools4RR/">Tools For Reproducible Research course</a>, and for examples of custom knit functions using see <a href="https://github.com/lmmx/devnotes/wiki/Rmarkdown-custom-knit-hook-to-compile-a-multi-part-document">notes here</a>.</p>
 
                     
                 </br>
