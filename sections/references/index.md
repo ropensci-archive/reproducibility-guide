@@ -33,6 +33,8 @@ Ioannidis, J.P. a et al. Repeatability of published microarray gene expression a
 
 King, G. Replication, Replication. PS: Political Science and Politics. (1995).[pdf](http://gking.harvard.edu/files/gking/files/replication.pdf)
 
+Leek, J.T. and Peng, R.D. 2015 Opinion: Reproducible research can still be wrong: Adopting a prevention approach. PNAS vol. 112 no. 6  1645–1646, doi: 10.1073/pnas.1421412111 http://www.pnas.org/content/112/6/1645.full
+
 Leisch F, Eugster M and Hothorn T 2011. Executable Papers for the R Community: The R2 Platform for Reproducible Research. Procedia Computer Science 4(0), 618-626. [pdf](http://www.sciencedirect.com/science/article/pii/S1877050911001232/pdf?md5=fbaaaf6f08354bd22db760c9bd113ee2&pid=1-s2.0-S1877050911001232-main.pdf)
 
 LeVeque, R.J. Python tools for reproducible research on hyperbolic problems. Computing in Science & Engineering. (2009),19-27. [pdf](http://citeseerx.ist.psu.edu/viewdoc/download?rep=rep1&type=pdf&doi=10.1.1.219.5569)
