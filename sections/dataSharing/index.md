@@ -102,7 +102,7 @@ into the spreadsheet. The code book contains this information. At minimum it sho
 
 In our genomics example, the analyst would want to know what the unit of measurement for each
 clinical/demographic variable is (age in years, treatment by name/dose, level of diagnosis and how heterogeneous). They 
-would also want to know how you picked the exons you used for summarizing the genomic data (UCSC/Ensembl, etc.). They
+would also want to know how you picked the exons you used for summarizing the genomic data ([UCSC](https://genome.ucsc.edu/)/[Ensembl](http://www.ensembl.org/index.html), etc.). They
 would also want to know any other information about how you did the data collection/study design. For example,
 are these the first 20 patients that walked into the clinic? Are they 20 highly selected patients by some characteristic
 like age? Are they randomized to treatments? 
