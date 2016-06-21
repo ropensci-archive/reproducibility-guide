@@ -17,6 +17,11 @@ You want to think about what the final output of your work will be.  The more ou
 
 Fortunately, most researchers require similar operations, so we can employ work flows that have been optimized by others. The overall goal is to work within a framework that encourages universal reproducibility, both for yourself and others interested in your work. 
 
+##Work flow frameworks
+
+Often work flows consist of several tasks, or transformations, necessary to produce files suitable for analysis in R. Many users find that a modern "pipeline framework" is beneficial for managing these tasks in a reproducible and automated manner. There are several work flow frameworks (e.g. Snakemake, Nextflow, Luigi) but virtually all of them provide _reentrancy_, the ability to restart interrupted work flows where they left off, and _dependency resolution_, which ensures that downstream tasks are re-run should new or modified inputs appear. Work flow frameworks are also useful for reproducible research in that they provide structures by which tools, data, and metadata are parameterized in ways that are easily understood by others.
+
+
 <div class="row">
   <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
