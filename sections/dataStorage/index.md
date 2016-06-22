@@ -19,7 +19,7 @@ There are many options for data storing depending on duration, data type, and st
 ### Data Package Manager
 
 - [dat](http://dat-data.com)
-- [datadex.io](http://datadex.io)
+- [Git-RDM](https://github.com/ctjacobs/git-rdm)
 
 ##Resources
 
