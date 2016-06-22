@@ -7,7 +7,7 @@ categories:
 
 There are many options for data storing depending on duration, data type, and step in data processing.  Simplifying  work flows by having data deposition in central accessible locations helps maintain continuity in analysis and communication. Although there are many options for data storage at the moment, the discussion of the future our scientific data is still evolving and very much in debate.  Scientists should be conscious of how and where our data will be housed at every stage of our research. 
 
-###Data Storage Options 
+### Data Storage Options 
 
 - [knb](https://knb.ecoinformatics.org/#data/page/0) Focuses on large ecological datasets, specific to [Ecological Meta Data Language](http://en.wikipedia.org/wiki/Ecological_Metadata_Language) XML data formats. 
 - [dataONE](http://www.dataone.org/) Focus on environmental science, community run.
@@ -21,6 +21,6 @@ There are many options for data storing depending on duration, data type, and st
 - [dat](http://dat-data.com)
 - [Git-RDM](https://github.com/ctjacobs/git-rdm)
 
-##Resources
+## Resources
 
 See [The Case for Data Package Managers](http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers).

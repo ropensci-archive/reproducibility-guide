@@ -9,7 +9,7 @@ Metadata is the information that accompanies your code and data, describing both
 
 For clarity, project metadata can be divided into three main categories: software, smaller tools (such as shorter scripts for pre-processing data files), and data analysis. Here is a brief guide to helping you include appropriate meta data to release with your work.
 
-##Common  meta data to include in README files for code
+## Common  meta data to include in README files for code
 
 **Vital for Every Project**: Title, Authors, Description, Date, License 
 
@@ -17,7 +17,7 @@ For clarity, project metadata can be divided into three main categories: softwar
 
 **Vital for Larger Programs**: Tests, How to run Tests, Run Times Under Commonly Used Platforms, Sample Input and Output Data, Sample Run Usage
 
-###A list of Questions to ask yourself about what meta data to include
+### A list of Questions to ask yourself about what meta data to include
 via @manics and @cboettig
 
 In addition to checking for the specificities of the type of project you are working on, for instance R package submission in CRAN requires specific schema, ask yourself these questions:

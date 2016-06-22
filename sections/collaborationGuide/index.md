@@ -13,7 +13,7 @@ One of the best ways to collaborate on a digital project is to use the version c
 
 There are several ways to contribute to this website.  You don't have to contribute code.  No matter if you are a programmer new to science, or a scientist new to programming, your perspective is needed for the advancement of scientific reproducibility. 
 
-##Issues
+## Issues
 
 One way to begin contributing is to start an [issue](https://github.com/ropensci/reproducibility-guide/issues?state=open). Issues are how we discuss the project.  It can be as large as changing the entire structure of the site, or small, like adding a new tool to the Tools section. 
 
@@ -23,11 +23,11 @@ If you're not sure where to start, take a look at [already started issues](https
 
 If you understand the basics of git, maybe you would like to take action and fix the issue by adding code to the repository.
 
-##Contributing to Codebase 
+## Contributing to Codebase 
 
 Each collaborative project on github has an ecosystem, so the rules for collaborating are different depending on the project.  Often housed in a CONTRIBUTING.md file, there are rules that have been adapted to suit the functionality of the project.  For our project, we are flexible on how you contribute and encourage newbie git collaborators: everyone has to start somewhere.  Here is a general guide for how you can contribute to the basecode for this site. If you are a beginning git user, this may seem a bit confusing, but we promise it becomes clear after trying it. 
 
-###Tiny Tutorial on Contributing to Repositories
+### Tiny Tutorial on Contributing to Repositories
 *(requires base knowledge of git. Remixed from Karl Broman's [github Guide - Contribute to Someone's repository](http://kbroman.github.io/github_tutorial/pages/fork.html)*
 
 - Say you want to contribute changes to our code repository.
@@ -72,7 +72,7 @@ version.
 
 - Give a short explanation of the changes and click the &ldquo;Send pull request&rdquo; button.
 
-##Pulling others’ changes
+## Pulling others’ changes
 
 - Before you make further changes to the repository, you should check that your version is up to date relative to your friend’s version.
 
@@ -86,11 +86,11 @@ This will pull down and merge all of the changes that your friend has made.
 
         $ git push
 
-##Add yourself to the contributors section
+## Add yourself to the contributors section
 
 Now that you have contributed, you can add yourself to the [list of contributors](http://ropensci.github.io/reproducibility-guide/contributors/).  The file to add your name to is located in the contributors folder in the main directory, just add your name to the index.md file housed [here](https://github.com/ropensci/reproducibility-guide/tree/gh-pages/contributors).
 
-##Resources
+## Resources
 
 [Full git/github](http://kbroman.github.io/github_tutorial/) - Karl Broman 
 

@@ -5,7 +5,7 @@ date:   2014-07-24
 categories: 
 ---
 
-#Description
+# Description
 
 Using tools like git for version control and knitr for dynamic figure generation are great steps forward towards better research transparency and reproducibility. 
 
@@ -15,7 +15,7 @@ We aim to begin compiling resources here. This is only a start, and we'd encoura
 
 ---
 
-#Guidelines for writing code
+# Guidelines for writing code
 
 **Two very useful manuals**:
 
@@ -27,7 +27,7 @@ We'd recommend reading the full guide, but briefly outline the sections of "RA M
 
 ---
 
-###Code should be logical
+### Code should be logical
 
 * Despise redundancy
 * Separate functional code and metadata
@@ -53,7 +53,7 @@ This would make the code easier to read and maintain.
 
 ---
 
-###Code should be readable
+### Code should be readable
 
 * Keep it short
 * Order your functions for linear reading
@@ -77,7 +77,7 @@ Rather than:
 
 ---
 
-###Code should be robust
+### Code should be robust
 
 * Check for errors
 * Write tests
@@ -100,7 +100,7 @@ Of course you can also write tests to make sure your verifications are working c
 
 ---
 
-###Code should be efficient
+### Code should be efficient
 
 * Profile slow code relentlessly
 * Store "too much" output from slow code
