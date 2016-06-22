@@ -5,13 +5,13 @@ date:   2014-03-30
 categories: 
 ---
 
-###Useful Work flows for writing and reproducibility 
+### Useful Work flows for writing and reproducibility 
 
 I think I am going to merge Project folder structure, workflows and introduction to tools all in this page.
 
 Here is what I came up with for diagrams.  The actual diagrams will have a better layout, that will go with the text I wrote, but I wanted them to make them extra big so you can see them clearly
 
-###Key
+### Key
 <img src="{{ site.baseurl }}/assets/img/key.png" class="img-responsive" alt="...">
 <hr>
 Manuscript using Latex workflow via @EDiLD 
@@ -25,7 +25,7 @@ Website
 <hr>
 
 
-###More examples?
+### More examples?
 
 - Sweave Example
 - [Markdown Authoring Guide](https://github.com/scholmd/scholmd/wiki/Tools-to-support-your-markdown-authoring)

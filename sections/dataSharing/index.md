@@ -39,7 +39,7 @@ For maximum speed in the analysis this is the information you should pass to a s
 Let's look at each part of the data package you will transfer. 
 
 
-##The raw data
+## The raw data
 
 It is critical that you include the rawest form of the data that you have access to. Here are some examples of the
 raw form of data:
@@ -60,7 +60,7 @@ If you did any manipulation of the data at all it is not the raw form of the dat
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
 forensic study of your data to figure out why the raw data looks weird. 
 
-##The tidy data set
+## The tidy data set
 
 The general principles of tidy data are laid out by [Hadley Wickham](http://had.co.nz/) in [this paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 and [this video](http://vimeo.com/33727555). The paper and the video are both focused on the [R](http://www.r-project.org/) package, which you
@@ -91,7 +91,7 @@ should not have multiple worksheets, no macros should be applied to the data, an
 Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) or [TAB-delimited](http://en.wikipedia.org/wiki/Tab-separated_values) text file.
 
 
-##The code book
+## The code book
 
 For almost any data set, the measurements you calculate will need to be described in more detail than you will sneak
 into the spreadsheet. The code book contains this information. At minimum it should contain:
@@ -111,7 +111,7 @@ A common format for this document is a Word file. There should be a section call
 description of how you collected the data. There is a section called "Code book" that describes each variable and its
 units. 
 
-##How to code variables
+## How to code variables
 
 When you put variables into a spreadsheet there are several main categories you will run into depending on their [data type](http://en.wikipedia.org/wiki/Statistical_data_type):
 
@@ -139,7 +139,7 @@ This will avoid potential mixups about which direction effects go and will help 
 
 Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
 
-##The instruction list/script
+## The instruction list/script
 
 You may have heard this before, but [reproducibility is kind of a big deal in computational science](http://www.sciencemag.org/content/334/6060/1226).
 That means, when you submit your paper, the reviewers and the rest of the world should be able to exactly replicate

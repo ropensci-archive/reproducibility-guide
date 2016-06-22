@@ -5,17 +5,17 @@ date:   2014-03-30
 categories: 
 ---
 
-###Components
+### Components
 
 Programs: R Studio
 Packages: rmarkdown
 Input files: .Rmd, data (.csv, .txt)
 
-###Description
+### Description
 
 Short way to generate reports and documentation in R by combining the power of pandoc and knitr.  
 
-###What you need to know
+### What you need to know
 
 [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) Cheat sheet via [@adam-p](https://github.com/adam-p).
 
