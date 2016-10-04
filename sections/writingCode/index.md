@@ -17,11 +17,9 @@ We aim to begin compiling resources here. This is only a start, and we'd encoura
 
 # Guidelines for writing code
 
-**Two very useful manuals**:
+**Very useful manual**:
 
-[Gentzkow and Shapiro, "RA Manual: Notes on Writing Code." 2012](http://faculty.chicagobooth.edu/matthew.gentzkow/research/ra_manual_coding.pdf)
-
-[Gentzkow and Shapiro, "Code and Data for the Social Sciences: A Practitioner's Guide" 2014](http://faculty.chicagobooth.edu/matthew.gentzkow/research/CodeAndData.pdf) 
+[Gentzkow and Shapiro, "Code and Data for the Social Sciences: A Practitioner's Guide" (including section "RA Manual: Notes on Writing Code.") 2014](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) 
 
 We'd recommend reading the full guide, but briefly outline the sections of "RA Manual: Notes on Writing Code" here so as to give a preview. We also include one example from each section, but there are many other examples in the original paper.
 
