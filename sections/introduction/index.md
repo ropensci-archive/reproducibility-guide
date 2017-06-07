@@ -31,7 +31,7 @@ In most cases, when we have only an article, we are unable to engage with the bu
 
 The aim of practising reproducible computational research is to expose more of the research workflow to our audience. This makes it easier for them to make a more informed assessment of our methods and results, and makes it easier for them to adapt our methods to their own research. 
 
-# What are the different kinds of reproducibile research?
+# What are the different kinds of reproducible research?
 
 Enabling reproducibility can be complicated, but by separating out some of the levels and degrees of reproducibility the problem can become more manageable because we can focus our efforts on what best suits our specific scientific domain. Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent scholar on this topic, has identified some useful distinctions in reproducible research:
 
