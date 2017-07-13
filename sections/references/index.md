@@ -25,7 +25,7 @@ Gandrud C 2013 Reproducible Research with R and RStudio. CRC Press Florida. [lin
 
 Gentleman, R. and Temple Lang, D. (2007). Statistical analyses and reproducible research. Journal of Computational and Graphical Statistics 16, 1–23. [pdf](http://www.extemporaneousb.com/R.berkeley/resources/StatisticalAnalysesAndReproducibility.pdf)
 
-Healy, K. (2011). Choosing Your Workflow Applications. The Political Methodologist, 18(2), 9–18. [pdf](http://polmeth.wustl.edu/methodologist/tpm_v18_n2.pdf)
+Healy, K. (2011). Choosing Your Workflow Applications. The Political Methodologist, 18(2), 9–18. [pdf](https://kieranhealy.org/files/papers/workflow-apps.pdf)
 
 Hothorn T and Leisch F 2011. Case studies in reproducibility. Briefings in Bioinformatics 12(3), 288-300. [pdf](http://www.statistik.tu-dortmund.de/fileadmin/user_upload/Lehrstuehle/Genetik/KS1112/Hothorn2011.pdf)
 
