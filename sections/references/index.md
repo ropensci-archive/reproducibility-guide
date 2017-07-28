@@ -19,6 +19,8 @@ Bray, A., Çetinkaya-Rundel, M., & Stangl, D. (2014). Taking a Chance in the Cla
 
 Drummond, C. Reproducible Research: a Dissenting Opinion. (2012), 1-10. [pdf](http://cogprints.org/8675/1/ReproducibleResearch.pdf)
 
+Fehr, J., Heiland, J., Himpe, C. and Saak, J. Best practices for replicability, reproducibility and reusability of computer-based experiments exemplified by model reduction software. AIMS Mathematics 1(3): 261-281, 2016. [doi:10.3934/Math.2016.3.261](https://doi.org/10.3934/Math.2016.3.261). 
+
 Freire, J. et al. Computational reproducibility: state-of-the-art, challenges, and database research opportunities. SIGMOD2012 (2012), 593-596. [pdf](http://bigdata.poly.edu/~juliana/pub/freire-sigmod2012.pdf)
 
 Gandrud C 2013 Reproducible Research with R and RStudio. CRC Press Florida. [link](http://christophergandrud.github.io/RepResR-RStudio/)
@@ -100,6 +102,8 @@ Xie Y 2013 Dynamic Documents with R and knitr. CRC Press Florida [link](http://w
 ## Presentations
 
 Numerous excellent talks by Victoria Stodden, [slides and video](http://www.stanford.edu/~vcs/Talks.html)
+
+[Best Practices for Reproducibility (and Model Reduction)](https://www.slideshare.net/gramian/himpe15-magdeburg)
 
 ## Blog posts on doing reproducible research (add yours! most recent at the top)
 
