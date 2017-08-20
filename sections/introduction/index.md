@@ -19,7 +19,7 @@ There are two basic reasons to be concerned about making your research reproduci
 
 Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).
 
-The second reason to aspire to reproducibility is **to enable others to make use of our methods and results**. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data to allow our colleagues to extend our approach to new applications with a minimum of effort. This has potential to save a great time of time in transmitting knowledge to future researchers. 
+The second reason to aspire to reproducibility is **to enable others to make use of our methods and results**. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data to allow our colleagues to extend our approach to new applications with a minimum of effort. This has potential to save a great amount of time in transmitting knowledge to future researchers. 
 
 # What are the principles of reproducible research?
 
@@ -37,7 +37,7 @@ Enabling reproducibility can be complicated, but by separating out some of the l
 
 - _Computational reproducibility_: when detailed information is provided about code, software, hardware and implementation details.
 
-- _Empirical reproducibility_: when detailed information is provided about non-computational empirical scientific experiments and observations. In practise this is enabled by making data freely available, as well as details of how the data was collected.
+- _Empirical reproducibility_: when detailed information is provided about non-computational empirical scientific experiments and observations. In practice this is enabled by making data freely available, as well as details of how the data was collected.
 
 - _Statistical reproducibility_: when detailed information is provided about the choice of statistical tests, model parameters, threshold values, etc. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations. 
 
@@ -51,7 +51,7 @@ Enabling reproducibility can be complicated, but by separating out some of the l
 
 This kind of spectrum is valuable because it easy for us to understand how our current practices can be defined. It helps to pinpoint limitations that we face (for example many researchers are unable to publicly release sensitive data)  and identify basic changes we can make to improve reproducibility. 
 
-## How can software tools can make our research more reproducible? 
+## How can software tools make our research more reproducible? 
 
 For many domains of science there are already several options for software tools to help overcome the technical challenges of doing reproducible research. These tools enable researchers to capture and communicate the details of their workflow with much greater efficiency that simply writing a lengthy prose narrative. There are three general types of software tools (cf. [Stodden et al 2013](http://stodden.net/icerm_report.pdf)). For more specific details on the tools named here, see our [tools page](http://ropensci.github.io/reproducibility-guide/sections/tools/):
 
@@ -63,7 +63,7 @@ For many domains of science there are already several options for software tools
 
 - **Automation** Several Unix tools are useful for streamlined automation and documentation of the research process, e.g. editing files, moving input and output between different parts of your workflow, and compiling documents for publication. Scripts for [shell programs](http://www.gnu.org/software/bash/) and [make](http://www.gnu.org/software/make/) files enable highly efficient and easily repeatable control of your computer. These scripts can also be used to keep a record of every kind of action on your computer. There are lots of options for learning and using Unix tools, for more details check out Karl Broman's [list of tools and editors](http://kbroman.github.io/Tools4RR/assets/lectures/02_unix_withnotes.pdf) for different platforms. 
 
-- **Capturing the computational environment** A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include [VirtualBox](https://www.virtualbox.org/) and [VMWare](http://www.vmware.com/). One challenge of working with VMs is that the files that contain the environment are not small, typically one gigbyte or more, which can be awkward to share. On the other hand, they are convenient for use with cloud-based services such as Amazon EC2. 
+- **Capturing the computational environment** A substantial challenge in reproducing analyses is installing and configuring the web of dependencies of specific versions of various analytical tools. Virtual machines (a computer inside a computer) enable you to efficiently share your entire computational environment with all the dependencies intact. Popular VM applications include [VirtualBox](https://www.virtualbox.org/) and [VMWare](http://www.vmware.com/). One challenge of working with VMs is that the files that contain the environment are not small, typically one gigabyte or more, which can be awkward to share. On the other hand, they are convenient for use with cloud-based services such as Amazon EC2. 
 
 ## How to give and receive credit for reproducible research?
 
@@ -75,7 +75,7 @@ One of the challenges going forward is how to share code and data. In many disci
 
 There are several options for depositing these components of the research compendia online that give [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)s for convenient citing and discovery (eg. [figshare](http://figshare.com/) with github integration, [zenodo](https://zenodo.org/) also with github integration, and [researchcompendia.org](http://researchcompendia.org/)).
 
-These recommendations will not be suitable for every occasion. For example, research that uses human subjects data obviously cannot make that data publicly available with substantial changes to protect identities. In these situations, some modifications will be required to maximize reproducibility while honoring obligations to stakeholders. In some cases, a solution might be releasing a sample of "dummy" data that contains similar qualities to the real data set. While this would not be fully 'reproducible research' as defined above, it would still be very useful to other researchers who could use a validated sample to inspect, evaluate and extend the research.   
+These recommendations will not be suitable for every occasion. For example, research that uses human subjects data obviously cannot make that data publicly available without substantial changes to protect identities. In these situations, some modifications will be required to maximize reproducibility while honoring obligations to stakeholders. In some cases, a solution might be releasing a sample of "dummy" data that contains similar qualities to the real data set. While this would not be fully 'reproducible research' as defined above, it would still be very useful to other researchers who could use a validated sample to inspect, evaluate and extend the research.   
 
 ## How can we make reproducible research the norm?
 
@@ -103,6 +103,6 @@ Similarly, [Collberg et al. (2014)](http://reproducibility.cs.arizona.edu/tr.pdf
 
 ## What's next?
 
-If this is all news to you, the next steps are to simply dive in and find the tools and workflow that best suit your research domain. Incrementally adding reproducibility to current projects is an excellent way to learn more, and then future projects can be planned for built-in reproducibility from the start. Becoming involved in the community of researchers in your domain who are using tools for reproducibility can also ease the transition to new tools and workflows. 
+If this is all news to you, the next steps are to simply dive in and find the tools and workflow that best suit your research domain. Incrementally adding reproducibility to current projects is an excellent way to learn more, and then future projects can plan for built-in reproducibility from the start. Becoming involved in the community of researchers in your domain who are using tools for reproducibility can also ease the transition to new tools and workflows. 
 
 Read through the other [sections of this site](http://ropensci.github.io/reproducibility-guide/) for more specific instructions, details and ideas on reproducible research using R. Also check out our curated list of [further readings](http://ropensci.github.io/reproducibility-guide/sections/references/) which includes links to numerous excellent guides on the practical details of improving reproducibility with R. 
