@@ -19,7 +19,7 @@ There are two basic reasons to be concerned about making your research reproduci
 
 Adopting a reproducible workflow means providing our audience with the code and data that demonstrates the decisions we made as we generated our results. This makes it easier for others to satisfy themselves that our results are reliable (or not, since reproducibility is no guarantee of correctness).
 
-The second reason to aspire to reproducibility is **to enable others to make use of our methods and results**. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data to allow our colleagues to extend our approach to new applications with a minimum of effort. This has potential to save a great time of time in transmitting knowledge to future researchers. 
+The second reason to aspire to reproducibility is **to enable others to make use of our methods and results**. Equipped with only our published article, our colleagues might struggle to reconstruct our method in enough detail to apply it to their own data. Adopting a reproducible workflow means publishing our code and data in order to allow our colleagues to extend our approach to new applications with a minimum of effort. This has the potential to save a great deal of time in transmitting knowledge to future researchers. 
 
 # What are the principles of reproducible research?
 
