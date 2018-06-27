@@ -60,7 +60,7 @@ Morin, A. et al. Shining light into black boxes. Science. 336, (2012), 159-160. 
 
 Peng, R.D. Reproducible research and Biostatistics. Biostatistics (Oxford, England). 10, (2009), 405-408. [link](http://biostatistics.oxfordjournals.org/content/10/3/405.full)
 
-Price, K. Anything You Can Do, I Can Do Better (No You Can't)... Computer Vision, Graphics, and Image Processing. (1986), 387-391. [pdf](http://pdf.thepdfportal.com/PDFFiles/121612.pdf)
+Price, K. Anything You Can Do, I Can Do Better (No You Can't)... Computer Vision, Graphics, and Image Processing. (1986), 387-391. [pdf](https://doi.org/10.1016/0734-189X(86)90083-6)
 
 Piwowar, H. a et al. Sharing detailed research data is associated with increased citation rate. PloS one. 2, (2007), 308. [link](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0000308#pone-0000308-g002)
 
