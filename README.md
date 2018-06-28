@@ -13,7 +13,11 @@ If you think you can help in anyway, awesome.  Feel free to create issues with y
 
 Slack Channel: #reproducibility-guide
 
+Cite the guide (BibTex):
 
-
-=======
-
+```
+@misc{repro-guide,
+title={{Reproducibility in Science: A Guide to enhancing reproducibility in scientific results and writing}},
+howpublished="\url{http://ropensci.github.io/reproducibility-guide/}"
+}
+```
